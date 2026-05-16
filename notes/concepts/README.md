@@ -34,11 +34,15 @@
 
    Когда несколько агентов или ролей помогают, а когда создают лишнюю сложность.
 
-8. [Evals](evals.md)
+8. [Protocols and interoperability](protocols-and-interoperability.md)
+
+   Чем различаются MCP и A2A, и почему агентской экосистеме нужны протоколы подключения и взаимодействия.
+
+9. [Evals](evals.md)
 
    Как оценивать не только финальный ответ, но и траекторию действий, устойчивость, стоимость и human review burden.
 
-9. [Risks](risks.md)
+10. [Risks](risks.md)
 
    Основные риски агентских систем: tool misuse, over-autonomy, context errors, prompt injection и слабая наблюдаемость.
 

@@ -30,13 +30,14 @@
 
 ## Iteration 3: tools, MCP and runtime
 
-Цель: понять инфраструктуру, которая позволяет агентам действовать.
+Цель: понять инфраструктуру, которая позволяет агентам действовать и подключаться к внешним возможностям.
 
 Темы:
 
 - function calling;
 - built-in tools;
 - remote MCP servers;
+- A2A and agent interoperability;
 - browser/computer use;
 - sandbox execution;
 - audit logs and tracing.
@@ -95,3 +96,16 @@
 - multi-agent patterns;
 - evaluation and risks;
 - product landscape.
+
+## Iteration 8: agent platforms and product patterns
+
+Цель: понять, как агентские системы превращаются в продукты и платформы.
+
+Темы:
+
+- visual agent builders;
+- connector registries;
+- embedded agent chat;
+- coding agents;
+- product eval loops;
+- permissions, audit and deployment.

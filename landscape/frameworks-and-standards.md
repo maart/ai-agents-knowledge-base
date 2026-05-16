@@ -12,6 +12,12 @@
 
 Почему важно: показывает, как провайдер модели оформляет агентские паттерны в продуктовую инфраструктуру.
 
+### OpenAI AgentKit and Agent Builder
+
+Фокус: end-to-end agent platform: visual workflow builder, embeddable chat UI, connector management and evals.
+
+Почему важно: показывает, что agent development становится не только SDK-задачей, но и product/platform-задачей: build -> deploy -> connect -> evaluate.
+
 ### LangGraph
 
 Фокус: stateful graph workflows для агентских и LLM-приложений.
@@ -38,6 +44,12 @@
 
 Почему важно: может стать одним из базовых интерфейсов между агентами и внешним миром.
 
+### A2A
+
+Фокус: протокол взаимодействия agent-to-agent.
+
+Почему важно: дополняет MCP на другом уровне. MCP связывает агента с инструментами и контекстом, A2A связывает агентов друг с другом.
+
 ## Runtime patterns
 
 ### Browser use
@@ -51,6 +63,10 @@
 ### Sandbox execution
 
 Изолированная среда для запуска кода, работы с файлами и долгих задач. Важна для безопасности, воспроизводимости и восстановления состояния.
+
+### Coding agents
+
+Coding agents вроде Claude Code, Codex and SWE-agent делают агентский цикл особенно видимым: inspect -> edit -> run -> observe -> revise. Они важны как практическая категория, где tool use, permissions, tests and review становятся центральными.
 
 ## Evals and observability
 
