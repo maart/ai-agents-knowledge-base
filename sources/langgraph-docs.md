@@ -12,7 +12,7 @@
 
 ## Main idea
 
-LangGraph frames agent systems as stateful, graph-based workflows. This is useful because many practical agent applications are not purely autonomous loops; they combine structured control flow, state, tools, human-in-the-loop steps and recoverability.
+LangGraph frames [agent](../notes/concepts/agent.md) systems as stateful, graph-based [workflows](../notes/concepts/workflow.md). This is useful because many practical agent applications are not purely autonomous loops; they combine structured control flow, state, tools, human-in-the-loop steps and recoverability.
 
 ## Relevance to AI agents
 

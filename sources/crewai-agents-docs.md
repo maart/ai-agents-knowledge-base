@@ -12,12 +12,12 @@
 
 ## Main idea
 
-CrewAI models agents as role-based units that perform tasks, use tools, collaborate with other agents, maintain memory and optionally delegate. Its product language is close to the "AI team" metaphor.
+CrewAI models agents as role-based units that perform tasks, use tools, collaborate with other agents, maintain [memory](../notes/concepts/memory.md) and optionally delegate. Its product language is close to the "AI team" metaphor.
 
 ## Relevance to AI agents
 
 - Useful for studying role/task/crew abstractions.
-- Shows a popular applied framing of multi-agent automation.
+- Shows a popular applied framing of [multi-agent](../notes/concepts/multi-agent.md) automation.
 - Provides a contrast to lower-level orchestration frameworks.
 
 ## Notes

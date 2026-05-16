@@ -22,7 +22,7 @@ Tool use дает модели возможность выходить за пр
 
 Function calling — механизм структурированного вызова функции.
 
-Tool use — более широкая способность системы использовать внешние возможности. Она включает function calling, built-in tools, MCP, browser use и computer use.
+Tool use — более широкая способность системы использовать внешние возможности. Она включает function calling, built-in tools, [MCP](protocols-and-interoperability.md), browser use и computer use.
 
 ## Риск
 

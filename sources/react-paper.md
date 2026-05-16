@@ -16,14 +16,14 @@ ReAct combines reasoning traces with actions. The model alternates between think
 
 ## Relevance to AI agents
 
-- Foundational pattern for agent loops: reason, act, observe.
-- Helps explain why tool use changes the model's role from answer generator to interactive problem solver.
+- Foundational pattern for [agent](../notes/concepts/agent.md) loops: reason, act, observe.
+- Helps explain why [tool use](../notes/concepts/tool-use.md) changes the model's role from answer generator to interactive problem solver.
 - Useful historical bridge between prompting research and modern agent frameworks.
 
 ## Notes
 
 - ReAct is not the whole story of agents, but it gives a clean primitive for understanding action loops.
-- Compare with later work on planning, reflection, tool use and long-running execution.
+- Compare with later work on [planning](../notes/concepts/planning.md), reflection, tool use and long-running execution.
 
 ## Reliability and limitations
 

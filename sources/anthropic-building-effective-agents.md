@@ -12,7 +12,7 @@
 
 ## Main idea
 
-Anthropic distinguishes workflows from agents: workflows follow predefined code paths, while agents dynamically direct their own processes and tool use. The article argues for simple, composable patterns and careful use of autonomy rather than defaulting to complex agent frameworks.
+Anthropic distinguishes [workflows](../notes/concepts/workflow.md) from agents: workflows follow predefined code paths, while agents dynamically direct their own processes and [tool use](../notes/concepts/tool-use.md). The article argues for simple, composable patterns and careful use of autonomy rather than defaulting to complex [agent](../notes/concepts/agent.md) frameworks.
 
 ## Relevance to AI agents
 

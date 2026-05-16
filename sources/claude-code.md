@@ -17,7 +17,7 @@ Claude Code is Anthropic's agentic coding system. It is designed to read a codeb
 
 ## Relevance to AI agents
 
-- Coding agents are one of the clearest production categories of agentic systems.
+- Coding agents are one of the clearest production categories of [agentic systems](../notes/concepts/agent.md).
 - Claude Code highlights practical issues: permissions, workspace access, command execution, testing, review, configuration and long-running coding tasks.
 - Useful comparison point for OpenAI Codex and SWE-agent.
 
@@ -34,4 +34,4 @@ Claude Code is Anthropic's agentic coding system. It is designed to read a codeb
 ## Follow-up questions
 
 - What permissions should coding agents have by default?
-- How should review, tests and audit trails be built into coding-agent workflows?
+- How should review, tests and audit trails be built into coding-agent [workflows](../notes/concepts/workflow.md)?

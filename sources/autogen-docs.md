@@ -12,12 +12,12 @@
 
 ## Main idea
 
-AutoGen is a framework for building AI agents and multi-agent applications. It is especially relevant for studying agent conversations, coordination, tools and distributed task solving.
+AutoGen is a framework for building AI agents and [multi-agent](../notes/concepts/multi-agent.md) applications. It is especially relevant for studying [agent](../notes/concepts/agent.md) conversations, coordination, tools and distributed task solving.
 
 ## Relevance to AI agents
 
 - Provides a concrete multi-agent implementation reference.
-- Useful for comparing role-based collaboration with graph/workflow orchestration.
+- Useful for comparing role-based collaboration with graph/[workflow](../notes/concepts/workflow.md) orchestration.
 - Highlights agent communication as an architectural primitive.
 
 ## Notes

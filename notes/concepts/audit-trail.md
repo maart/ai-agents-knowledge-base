@@ -13,7 +13,7 @@ Audit trail — это журнал действий, решений, tool calls
 Для агентской системы полезно сохранять:
 
 - исходную задачу;
-- версию workflow или агента;
+- версию [workflow](workflow.md) или агента;
 - доступные tools;
 - выбранные действия;
 - параметры tool calls;
@@ -29,7 +29,7 @@ Audit trail сохраняет прошлое выполнение задачи.
 
 ## Где особенно важно
 
-- Coding agents.
+- Coding [agents](agent.md).
 - Operations agents.
 - Customer support.
 - Финансовые и юридические процессы.

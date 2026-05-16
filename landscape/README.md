@@ -2,6 +2,6 @@
 
 # Landscape
 
-Здесь хранится обзор экосистемы вокруг AI agents: фреймворки, стандарты, продукты, runtime-подходы, evals и observability.
+Здесь хранится обзор экосистемы вокруг AI [agents](../notes/concepts/agent.md): фреймворки, стандарты, продукты, runtime-подходы, [evals](../notes/concepts/evals.md) и observability.
 
 Начать с [frameworks-and-standards.md](frameworks-and-standards.md).

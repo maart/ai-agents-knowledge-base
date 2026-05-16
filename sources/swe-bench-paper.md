@@ -16,7 +16,7 @@ SWE-bench evaluates language models on real GitHub issues where the model must m
 
 ## Relevance to AI agents
 
-- Important benchmark for coding agents and real-world task completion.
+- Important benchmark for coding [agents](../notes/concepts/agent.md) and real-world task completion.
 - Emphasizes that agent evaluation often needs executable environments, not just answer grading.
 - Highlights long-context reasoning, repository navigation and test feedback.
 

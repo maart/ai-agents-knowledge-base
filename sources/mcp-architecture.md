@@ -13,11 +13,11 @@
 
 ## Main idea
 
-MCP defines a standard way for AI applications to connect to tools, resources and prompts exposed by external servers. Its importance is architectural: it tries to make context and tool integration reusable across clients instead of rebuilding a custom integration for every AI app.
+[MCP](../notes/concepts/protocols-and-interoperability.md) defines a standard way for AI applications to connect to tools, resources and prompts exposed by external servers. Its importance is architectural: it tries to make context and tool integration reusable across clients instead of rebuilding a custom integration for every AI app.
 
 ## Relevance to AI agents
 
-- MCP is part of the infrastructure layer around agents.
+- MCP is part of the infrastructure layer around [agents](../notes/concepts/agent.md).
 - It helps separate the agent/client from external capabilities.
 - It raises important questions about permissions, trust boundaries, transport, tool schemas and security.
 

@@ -13,13 +13,13 @@
 
 ## Main idea
 
-SWE-agent studies how language model agents can solve software engineering tasks by interacting with a computer-like interface: inspecting files, editing code and running tests.
+SWE-agent studies how language model [agents](../notes/concepts/agent.md) can solve software engineering tasks by interacting with a computer-like interface: inspecting files, editing code and running tests.
 
 ## Relevance to AI agents
 
 - Coding agents are one of the clearest practical categories of agentic systems.
 - Shows how the interface between model and environment affects performance.
-- Connects tool use, long context, execution feedback and evaluation.
+- Connects [tool use](../notes/concepts/tool-use.md), long context, execution feedback and evaluation.
 
 ## Notes
 

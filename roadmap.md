@@ -6,7 +6,7 @@
 
 ## Iteration 1: базовые определения
 
-Цель: объяснить, что такое AI agent и чем он отличается от chatbot и workflow.
+Цель: объяснить, что такое AI [agent](notes/concepts/agent.md) и чем он отличается от chatbot и [workflow](notes/concepts/workflow.md).
 
 Результаты:
 
@@ -36,15 +36,15 @@
 
 - function calling;
 - built-in tools;
-- remote MCP servers;
-- A2A and agent interoperability;
+- remote [MCP](notes/concepts/protocols-and-interoperability.md) servers;
+- [A2A](notes/concepts/protocols-and-interoperability.md) and agent interoperability;
 - browser/computer use;
 - sandbox execution;
 - audit logs and tracing.
 
 ## Iteration 4: memory and knowledge
 
-Цель: отделить разные смыслы слова "memory".
+Цель: отделить разные смыслы слова "[memory](notes/concepts/memory.md)".
 
 Темы:
 
@@ -54,7 +54,7 @@
 - [long-term memory](notes/concepts/long-term-memory.md);
 - [skill libraries](notes/concepts/skill-library.md);
 - [audit trail](notes/concepts/audit-trail.md);
-- retrieval and forgetting.
+- [retrieval](notes/concepts/retrieval-rag.md) and forgetting.
 
 ## Iteration 5: multi-agent systems
 
@@ -92,10 +92,10 @@
 - AI agents as task-performing systems;
 - core components;
 - agent vs workflow;
-- tool use and MCP;
-- memory and planning;
-- multi-agent patterns;
-- evaluation and risks;
+- [tool use](notes/concepts/tool-use.md) and MCP;
+- memory and [planning](notes/concepts/planning.md);
+- [multi-agent](notes/concepts/multi-agent.md) patterns;
+- evaluation and [risks](notes/concepts/risks.md);
 - product landscape.
 
 ## Iteration 8: agent platforms and product patterns

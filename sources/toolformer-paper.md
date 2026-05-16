@@ -17,12 +17,12 @@ Toolformer studies how language models can learn when and how to call external A
 ## Relevance to AI agents
 
 - Important early paper for tool-use as a learned model capability.
-- Separates the question of "can the model use tools?" from the broader question of "can the system act as an agent?"
+- Separates the question of "can the model use tools?" from the broader question of "can the system act as an [agent](../notes/concepts/agent.md)?"
 - Useful for the history of function calling and API interaction.
 
 ## Notes
 
-- Toolformer is about learning tool use, not full agent orchestration.
+- Toolformer is about learning [tool use](../notes/concepts/tool-use.md), not full agent orchestration.
 - Pair with ReAct to compare learned API calls with prompted reason-act loops.
 
 ## Reliability and limitations

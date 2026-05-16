@@ -13,7 +13,7 @@
 
 ## Main idea
 
-AgentKit packages several parts of agent product development into one platform layer: Agent Builder for creating workflows, ChatKit for embedding agent chat experiences, Connector Registry for managing data and tool connections, and Evals for measuring agent behavior.
+AgentKit packages several parts of agent product development into one platform layer: Agent Builder for creating [workflows](../notes/concepts/workflow.md), ChatKit for embedding agent chat experiences, Connector Registry for managing data and tool connections, and [Evals](../notes/concepts/evals.md) for measuring agent behavior.
 
 ## Relevance to AI agents
 

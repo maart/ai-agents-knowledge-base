@@ -13,11 +13,11 @@
 
 ## Main idea
 
-Voyager is an LLM-powered Minecraft agent that explores an environment, writes executable skills, stores them in a skill library and reuses them for future tasks.
+Voyager is an LLM-powered Minecraft [agent](../notes/concepts/agent.md) that explores an environment, writes executable skills, stores them in a [skill library](../notes/concepts/skill-library.md) and reuses them for future tasks.
 
 ## Relevance to AI agents
 
-- Strong example of agent memory as reusable skills, not just stored text.
+- Strong example of agent [memory](../notes/concepts/memory.md) as reusable skills, not just stored text.
 - Shows environment feedback, execution errors and self-verification as part of agent learning.
 - Useful for understanding embodied and open-ended agents.
 
@@ -29,7 +29,7 @@ Voyager is an LLM-powered Minecraft agent that explores an environment, writes e
 ## Reliability and limitations
 
 - Research paper and open-source project.
-- Environment is simulated and structured; conclusions may not transfer directly to messy business workflows.
+- Environment is simulated and structured; conclusions may not transfer directly to messy business [workflows](../notes/concepts/workflow.md).
 
 ## Follow-up questions
 

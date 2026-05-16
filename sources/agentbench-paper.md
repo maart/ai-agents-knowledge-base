@@ -12,7 +12,7 @@
 
 ## Main idea
 
-AgentBench evaluates LLMs as agents across multiple interactive environments, including operating systems, databases, knowledge graphs, games, web shopping and web browsing.
+AgentBench evaluates LLMs as [agents](../notes/concepts/agent.md) across multiple interactive environments, including operating systems, databases, knowledge graphs, games, web shopping and web browsing.
 
 ## Relevance to AI agents
 

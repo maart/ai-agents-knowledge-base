@@ -12,13 +12,13 @@
 
 ## Main idea
 
-Generative Agents studies simulated agents with memory, reflection and planning. The paper is less about tool execution and more about how believable agent behavior can emerge from storing experiences, retrieving relevant memories and generating plans.
+Generative Agents studies simulated agents with [memory](../notes/concepts/memory.md), reflection and [planning](../notes/concepts/planning.md). The paper is less about tool execution and more about how believable [agent](../notes/concepts/agent.md) behavior can emerge from storing experiences, retrieving relevant memories and generating plans.
 
 ## Relevance to AI agents
 
 - Important source for memory and reflection in agent systems.
 - Helps separate "agent as action executor" from "agent as persistent simulated actor".
-- Useful for discussing long-term memory, retrieval and behavioral consistency.
+- Useful for discussing [long-term memory](../notes/concepts/long-term-memory.md), [retrieval](../notes/concepts/retrieval-rag.md) and behavioral consistency.
 
 ## Notes
 
@@ -32,5 +32,5 @@ Generative Agents studies simulated agents with memory, reflection and planning.
 
 ## Follow-up questions
 
-- Which memory patterns transfer from simulations to practical agent workflows?
+- Which memory patterns transfer from simulations to practical agent [workflows](../notes/concepts/workflow.md)?
 - How should agents decide what to remember, summarize or forget?

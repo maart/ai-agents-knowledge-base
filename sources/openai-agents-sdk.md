@@ -19,7 +19,7 @@ OpenAI Agents SDK presents agents as an orchestration layer around models, tools
 
 - Useful as a reference for agent primitives: agent, runner, tools, guardrails, handoffs, sessions.
 - Shows how agentic systems move from prompt-only patterns to application infrastructure.
-- Important for tracking current product direction around long-running agents, sandboxed execution and computer/tool use.
+- Important for tracking current product direction around long-running agents, sandboxed execution and computer/[tool use](../notes/concepts/tool-use.md).
 
 ## Notes
 

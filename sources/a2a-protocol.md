@@ -8,17 +8,17 @@
 - Related announcement: https://s24.q4cdn.com/538403808/files/doc_news/Linux-Foundation-Launches-the-Agent2Agent-Protocol-Project-to-Enable-Secure-Intelligent-Communication-Between-AI-Agents-2025.pdf
 - Accessed: 2026-05-16
 - Type: docs / protocol
-- Author / organization: Google, Linux Foundation and A2A community
+- Author / organization: Google, Linux Foundation and [A2A](../notes/concepts/protocols-and-interoperability.md) community
 - Year: 2025-2026
 
 ## Main idea
 
-Agent2Agent (A2A) is an open protocol for communication and interoperability between AI agents across systems and frameworks. Where MCP focuses on connecting AI applications to tools and context, A2A focuses on agent-to-agent communication.
+Agent2Agent (A2A) is an open protocol for communication and interoperability between AI [agents](../notes/concepts/agent.md) across systems and frameworks. Where MCP focuses on connecting AI applications to tools and context, A2A focuses on agent-to-agent communication.
 
 ## Relevance to AI agents
 
-- Adds the interoperability layer beyond single-agent tool use.
-- Useful for multi-agent systems that cross application or organization boundaries.
+- Adds the interoperability layer beyond single-agent [tool use](../notes/concepts/tool-use.md).
+- Useful for [multi-agent](../notes/concepts/multi-agent.md) systems that cross application or organization boundaries.
 - Important distinction: MCP connects agents to tools/resources; A2A connects agents to other agents.
 
 ## Notes

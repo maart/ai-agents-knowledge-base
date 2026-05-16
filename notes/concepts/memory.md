@@ -23,4 +23,4 @@
 
 ## Практическое правило
 
-Для v1 agentic system лучше начинать с явного session state и audit trail. Long-term memory добавлять только тогда, когда понятно, что именно нужно помнить и как это проверять.
+Для v1 [agentic system](agent.md) лучше начинать с явного [session state](session-state.md) и [audit trail](audit-trail.md). [Long-term memory](long-term-memory.md) добавлять только тогда, когда понятно, что именно нужно помнить и как это проверять.

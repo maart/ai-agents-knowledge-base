@@ -2,7 +2,7 @@
 
 # Concepts
 
-Этот раздел собирает базовые концептуальные заметки об AI agents. Его лучше читать подряд: порядок ниже построен так, чтобы сначала понять границы понятия "agent", затем компоненты агентской системы, потом более сложные вопросы координации, оценки и рисков.
+Этот раздел собирает базовые концептуальные заметки об AI agents. Его лучше читать подряд: порядок ниже построен так, чтобы сначала понять границы понятия "[agent](agent.md)", затем компоненты агентской системы, потом более сложные вопросы координации, оценки и рисков.
 
 ## Рекомендуемый порядок чтения
 
@@ -12,7 +12,7 @@
 
 2. [Workflow](workflow.md)
 
-   Почему workflow — не слабая версия агента, а надежный способ строить управляемые AI-системы.
+   Почему [workflow](workflow.md) — не слабая версия агента, а надежный способ строить управляемые AI-системы.
 
 3. [Agent vs workflow](agent-vs-workflow.md)
 
@@ -20,7 +20,7 @@
 
 4. [Tool use](tool-use.md)
 
-   Как модель выходит за пределы текста: function calling, API, browser/computer use, MCP и внешние системы.
+   Как модель выходит за пределы текста: function calling, API, browser/computer use, [MCP](protocols-and-interoperability.md) и внешние системы.
 
 5. [Planning](planning.md)
 
@@ -28,7 +28,7 @@
 
 6. [Memory](memory.md)
 
-   Разные смыслы памяти: context window, session state, RAG, long-term memory, skill library и audit trail.
+   Разные смыслы памяти: [context window](context-window.md), [session state](session-state.md), [RAG](retrieval-rag.md), [long-term memory](long-term-memory.md), [skill library](skill-library.md) и [audit trail](audit-trail.md).
 
    Подтемы:
 

@@ -6,7 +6,7 @@
 
 ## Основная идея
 
-Retrieval-Augmented Generation (RAG) — это подход, при котором система ищет релевантные документы, фрагменты или записи во внешнем хранилище и добавляет их в context window перед генерацией ответа или следующим агентским шагом.
+Retrieval-Augmented Generation (RAG) — это подход, при котором система ищет релевантные документы, фрагменты или записи во внешнем хранилище и добавляет их в [context window](context-window.md) перед генерацией ответа или следующим агентским шагом.
 
 ## Зачем это агентам
 
@@ -22,11 +22,11 @@ RAG позволяет агенту работать с информацией, 
 
 ## Retrieval не равен memory
 
-Retrieval — это механизм поиска. Memory — более широкое понятие. RAG может быть способом реализовать часть памяти, но не заменяет session state, audit trail или long-term memory.
+Retrieval — это механизм поиска. [Memory](memory.md) — более широкое понятие. RAG может быть способом реализовать часть памяти, но не заменяет [session state](session-state.md), [audit trail](audit-trail.md) или [long-term memory](long-term-memory.md).
 
 ## Где RAG особенно полезен
 
-- Research agents.
+- Research [agents](agent.md).
 - Support agents.
 - Documentation agents.
 - Coding agents, которые ищут релевантные файлы или docs.

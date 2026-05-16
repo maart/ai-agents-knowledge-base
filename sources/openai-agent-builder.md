@@ -12,7 +12,7 @@
 
 ## Main idea
 
-Agent Builder is a visual canvas for building agent workflows. It treats agent creation as a graph/workflow design problem: developers compose nodes, configure tools, test behavior, version workflows and deploy them through related OpenAI agent platform components.
+[Agent](../notes/concepts/agent.md) Builder is a visual canvas for building agent workflows. It treats agent creation as a graph/[workflow](../notes/concepts/workflow.md) design problem: developers compose nodes, configure tools, test behavior, version workflows and deploy them through related OpenAI agent platform components.
 
 ## Relevance to AI agents
 
@@ -33,4 +33,4 @@ Agent Builder is a visual canvas for building agent workflows. It treats agent c
 ## Follow-up questions
 
 - Which agent workflows are better expressed visually, and which need code?
-- How should visual agent builders expose versioning, evals and audit trails?
+- How should visual agent builders expose versioning, [evals](../notes/concepts/evals.md) and audit trails?

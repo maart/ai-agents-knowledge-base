@@ -6,7 +6,7 @@
 
 ## Черновики
 
-- [What are AI agents?](what-are-ai-agents.md) — первый связный текст о том, что такое AI agents.
+- [What are AI agents?](what-are-ai-agents.md) — первый связный текст о том, что такое AI [agents](../notes/concepts/agent.md).
 
 ## Как использовать раздел
 
