@@ -13,7 +13,7 @@
 3. [Roadmap](roadmap.md) — порядок исследования по итерациям.
 4. [Текущий синтез](notes/current-synthesis.md) — короткое резюме того, что уже понятно на текущей итерации.
 5. [Ландшафт](landscape/frameworks-and-standards.md) и [comparison](landscape/comparison.md) — фреймворки, стандарты и продуктовые направления.
-6. [Первый черновик](drafts/what-are-ai-agents.md) — связный текст о том, что такое AI agents.
+6. [Черновики](drafts/README.md) — связные тексты, собранные из заметок и источников.
 7. [Источники](sources/README.md) — карточки papers, docs, essays, product pages и benchmarks.
 
 ## Рабочий принцип

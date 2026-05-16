@@ -1,4 +1,4 @@
-[На главную](../README.md)
+[К разделу Sources](README.md)
 
 # Source: Toolformer: Language Models Can Teach Themselves to Use Tools
 

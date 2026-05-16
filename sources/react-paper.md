@@ -1,4 +1,4 @@
-[На главную](../README.md)
+[К разделу Sources](README.md)
 
 # Source: ReAct: Synergizing Reasoning and Acting in Language Models
 

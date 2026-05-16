@@ -1,4 +1,4 @@
-[На главную](../../README.md)
+[К разделу Concepts](README.md)
 
 # Memory
 

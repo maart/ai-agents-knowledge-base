@@ -1,4 +1,4 @@
-[На главную](../README.md)
+[К разделу Landscape](README.md)
 
 # Landscape comparison
 

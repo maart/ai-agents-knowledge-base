@@ -1,4 +1,4 @@
-[На главную](../README.md)
+[К разделу Sources](README.md)
 
 # Source: Building effective agents
 

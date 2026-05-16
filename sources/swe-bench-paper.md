@@ -1,4 +1,4 @@
-[На главную](../README.md)
+[К разделу Sources](README.md)
 
 # Source: SWE-bench: Can Language Models Resolve Real-World GitHub Issues?
 

@@ -1,4 +1,4 @@
-[На главную](../README.md)
+[К разделу Drafts](README.md)
 
 # What are AI agents?
 
