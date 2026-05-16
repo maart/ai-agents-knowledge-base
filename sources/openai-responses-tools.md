@@ -13,7 +13,7 @@
 
 ## Главная идея
 
-Responses API делает [tool use](../notes/concepts/tool-use.md) частью поверхности взаимодействия с моделью (model interaction surface). Он поддерживает custom function calling и встроенные tools: web search, file search, code interpreter, computer use и remote [MCP](../notes/concepts/protocols-and-interoperability.md) servers.
+Responses API относится к [Model/API layer](../01-glossary.md#modelapi-layer) и делает [tool use](../notes/concepts/tool-use.md) частью поверхности взаимодействия с моделью (model interaction surface). Он поддерживает custom function calling и встроенные tools: web search, file search, code interpreter, computer use и remote [MCP](../notes/concepts/protocols-and-interoperability.md) servers.
 
 ## Значение для AI agents
 

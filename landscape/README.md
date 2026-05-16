@@ -13,22 +13,20 @@ Landscape — это карта экосистемы вокруг AI [agents](..
 Landscape отвечает на вопросы:
 
 - какие слои есть в agent ecosystem;
-- чем SDK отличается от platform;
+- чем [SDK and orchestration](../01-glossary.md#sdk-and-orchestration) отличается от [agent platform](../01-glossary.md#visual-builders-and-agent-platforms);
 - где место protocols вроде [MCP](../notes/concepts/protocols-and-interoperability.md) и [A2A](../notes/concepts/protocols-and-interoperability.md);
 - почему runtime и observability важны не меньше модели;
 - какие product categories уже видны.
 
 ## Карта слоев
 
-```text
-Model/API layer
-  -> SDK and orchestration
-  -> Visual builders and agent platforms
-  -> Protocols and connectors
-  -> Runtime and execution environments
-  -> Observability, evals and safety
-  -> Product categories
-```
+- [Model/API layer](../01-glossary.md#modelapi-layer)
+- [SDK and orchestration](../01-glossary.md#sdk-and-orchestration)
+- [Visual builders and agent platforms](../01-glossary.md#visual-builders-and-agent-platforms)
+- Protocols and connectors
+- Runtime and execution environments
+- Observability, evals and safety
+- Product categories
 
 ## Как читать
 

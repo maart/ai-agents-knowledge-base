@@ -18,7 +18,7 @@ LangGraph описывает [agent](../notes/concepts/agent.md) systems как 
 
 - Сильный reference для hybrid pattern workflow/agent.
 - Полезен для изучения durable execution, long-running state и human review.
-- Помогает объяснить, почему agent orchestration часто выглядит как graph, а не как одиночный prompt loop.
+- Помогает объяснить, почему [agent orchestration](../01-glossary.md#sdk-and-orchestration) часто выглядит как graph, а не как одиночный prompt loop.
 
 ## Заметки
 

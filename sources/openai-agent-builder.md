@@ -12,7 +12,7 @@
 
 ## Главная идея
 
-[Agent](../notes/concepts/agent.md) Builder — визуальный canvas для создания agent workflows. Он трактует создание agent как задачу проектирования graph/[workflow](../notes/concepts/workflow.md): разработчики собирают nodes, настраивают tools, тестируют behavior, версионируют workflows и выполняют deploy через связанные компоненты OpenAI agent platform.
+[Agent](../notes/concepts/agent.md) Builder — [visual builder](../01-glossary.md#visual-builders-and-agent-platforms) для создания agent workflows. Он трактует создание agent как задачу проектирования graph/[workflow](../notes/concepts/workflow.md): разработчики собирают nodes, настраивают tools, тестируют behavior, версионируют workflows и выполняют deploy через связанные компоненты OpenAI agent platform.
 
 ## Значение для AI agents
 
@@ -28,7 +28,7 @@
 ## Надежность и ограничения
 
 - Официальная документация OpenAI.
-- Документация описывает задуманное поведение продукта (intended product behavior), а не независимые findings по надежность (reliability).
+- Документация описывает задуманное поведение продукта (intended product behavior), а не независимые findings по reliability.
 
 ## Вопросы для продолжения
 

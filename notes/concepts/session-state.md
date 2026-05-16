@@ -6,7 +6,7 @@
 
 ## Основная идея
 
-Session state — это состояние текущей задачи между шагами. В отличие от [context window](context-window.md), оно хранится приложением или orchestration layer и может выборочно передаваться модели.
+Session state — это состояние текущей задачи между шагами. В отличие от [context window](context-window.md), оно хранится приложением или [orchestration layer](../../01-glossary.md#sdk-and-orchestration) и может выборочно передаваться модели.
 
 ## Что хранить
 

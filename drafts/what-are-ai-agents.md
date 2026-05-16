@@ -162,7 +162,7 @@ Benchmarks вроде AgentBench и SWE-bench важны, потому что о
 
 Вокруг AI agents уже сложилось несколько слоев.
 
-SDK и orchestration: OpenAI Agents SDK, LangGraph, AutoGen, CrewAI. Они помогают собирать агентов, управлять инструментами, состоянием, ролями, handoffs и выполнением.
+[SDK and orchestration](../01-glossary.md#sdk-and-orchestration): OpenAI Agents SDK, LangGraph, AutoGen, CrewAI. Они помогают собирать агентов, управлять инструментами, состоянием, ролями, handoffs и выполнением.
 
 Protocols: MCP и смежные стандарты, которые пытаются нормализовать подключение инструментов и контекста.
 
