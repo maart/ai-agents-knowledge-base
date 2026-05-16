@@ -1,36 +1,36 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: CrewAI agents documentation
+# Источник: CrewAI agents документация
 
-## Metadata
+## Метаданные
 
 - URL: https://docs.crewai.com/en/concepts/agents
-- Accessed: 2026-05-16
-- Type: docs
-- Author / organization: CrewAI
-- Year: 2023-2026
+- Дата доступа: 2026-05-16
+- Тип: docs
+- Автор / организация: CrewAI
+- Год: 2023-2026
 
-## Main idea
+## Главная идея
 
-CrewAI models agents as role-based units that perform tasks, use tools, collaborate with other agents, maintain [memory](../notes/concepts/memory.md) and optionally delegate. Its product language is close to the "AI team" metaphor.
+CrewAI описывает agents как role-based units, которые выполняют tasks, используют tools, сотрудничают с другими agents, поддерживают [memory](../notes/concepts/memory.md) и опционально делегируют. Его продуктовый язык близок к метафоре "AI team".
 
-## Relevance to AI agents
+## Значение для AI agents
 
-- Useful for studying role/task/crew abstractions.
-- Shows a popular applied framing of [multi-agent](../notes/concepts/multi-agent.md) automation.
-- Provides a contrast to lower-level orchestration frameworks.
+- Полезен для изучения абстракций role/task/crew.
+- Показывает популярный прикладной framing для [multi-agent](../notes/concepts/multi-agent.md) automation.
+- Дает контраст к более низкоуровневым orchestration frameworks.
 
-## Notes
+## Заметки
 
-- The team metaphor is intuitive, but should be tested against real reliability and evaluation constraints.
-- Compare "crew" abstractions with explicit graph control.
+- Метафора team интуитивна, но ее нужно проверять на реальных надежность (reliability) и оценка (evaluation) constraints.
+- Сравнить "crew" abstractions с explicit graph control.
 
-## Reliability and limitations
+## Надежность и ограничения
 
-- Official CrewAI documentation.
-- Product framing may emphasize successful use cases more than limitations.
+- Официальная документация CrewAI.
+- Продуктовый framing может сильнее подчеркивать успешные use cases, чем ограничения.
 
-## Follow-up questions
+## Вопросы для продолжения
 
-- Which parts of role-based agents are useful architecture and which are interface metaphor?
-- How does delegation affect reliability?
+- Какие части role-based agents являются полезной architecture, а какие — interface metaphor?
+- Как delegation влияет на надежность (reliability)?

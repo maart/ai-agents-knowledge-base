@@ -1,36 +1,36 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: LangGraph documentation
+# Источник: LangGraph документация
 
-## Metadata
+## Метаданные
 
 - URL: https://docs.langchain.com/oss/python/langgraph
-- Accessed: 2026-05-16
-- Type: docs
-- Author / organization: LangChain
-- Year: 2024-2026
+- Дата доступа: 2026-05-16
+- Тип: docs
+- Автор / организация: LangChain
+- Год: 2024-2026
 
-## Main idea
+## Главная идея
 
-LangGraph frames [agent](../notes/concepts/agent.md) systems as stateful, graph-based [workflows](../notes/concepts/workflow.md). This is useful because many practical agent applications are not purely autonomous loops; they combine structured control flow, state, tools, human-in-the-loop steps and recoverability.
+LangGraph описывает [agent](../notes/concepts/agent.md) systems как stateful, graph-based [workflows](../notes/concepts/workflow.md). Это полезно, потому что многие практические agent applications не являются полностью autonomous loops; они объединяют structured control flow, state, tools, human-in-the-loop steps и recoverability.
 
-## Relevance to AI agents
+## Значение для AI agents
 
-- Strong reference for the workflow/agent hybrid pattern.
-- Useful for studying durable execution, long-running state and human review.
-- Helps explain why agent orchestration often looks like a graph rather than a single prompt loop.
+- Сильный reference для hybrid pattern workflow/agent.
+- Полезен для изучения durable execution, long-running state и human review.
+- Помогает объяснить, почему agent orchestration часто выглядит как graph, а не как одиночный prompt loop.
 
-## Notes
+## Заметки
 
-- Compare with OpenAI Agents SDK: both manage tools and multi-step execution, but their abstractions differ.
-- LangGraph is especially relevant for production systems where control flow matters.
+- Сравнить с OpenAI Agents SDK: оба управляют tools и multi-step execution, но их abstractions различаются.
+- LangGraph особенно релевантен для production-систем, где важен control flow.
 
-## Reliability and limitations
+## Надежность и ограничения
 
-- Official documentation is authoritative for LangGraph concepts.
-- As framework documentation, it may be biased toward its own architecture.
+- Официальная документация является авторитетным источником по LangGraph concepts.
+- Как документация framework, может быть biased в сторону собственной architecture.
 
-## Follow-up questions
+## Вопросы для продолжения
 
-- When is graph orchestration better than a simpler agent loop?
-- What parts of LangGraph are universal agent patterns rather than framework-specific features?
+- Когда graph orchestration лучше более простого agent loop?
+- Какие части LangGraph являются универсальными agent patterns, а какие — framework-specific features?

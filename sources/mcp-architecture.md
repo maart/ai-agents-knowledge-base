@@ -1,37 +1,37 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: Model Context Protocol architecture
+# Источник: Model Context Protocol architecture
 
-## Metadata
+## Метаданные
 
 - URL: https://modelcontextprotocol.io/docs/learn/architecture
 - Specification: https://modelcontextprotocol.io/specification/
-- Accessed: 2026-05-16
-- Type: docs / specification
-- Author / organization: Model Context Protocol project
-- Year: 2024-2026
+- Дата доступа: 2026-05-16
+- Тип: docs / specification
+- Автор / организация: Model Context Protocol project
+- Год: 2024-2026
 
-## Main idea
+## Главная идея
 
-[MCP](../notes/concepts/protocols-and-interoperability.md) defines a standard way for AI applications to connect to tools, resources and prompts exposed by external servers. Its importance is architectural: it tries to make context and tool integration reusable across clients instead of rebuilding a custom integration for every AI app.
+[MCP](../notes/concepts/protocols-and-interoperability.md) определяет стандартный способ подключения AI-приложений к tools, resources и prompts, которые предоставляют external servers. Его значение архитектурное: он пытается сделать context и tool integration переиспользуемыми между clients, вместо того чтобы заново строить custom integration для каждого AI-приложения.
 
-## Relevance to AI agents
+## Значение для AI agents
 
-- MCP is part of the infrastructure layer around [agents](../notes/concepts/agent.md).
-- It helps separate the agent/client from external capabilities.
-- It raises important questions about permissions, trust boundaries, transport, tool schemas and security.
+- MCP — часть infrastructure layer вокруг [agents](../notes/concepts/agent.md).
+- Помогает отделить agent/client от external возможности (capabilities).
+- Поднимает важные вопросы permissions, trust boundaries, transport, tool schemas и security.
 
-## Notes
+## Заметки
 
-- For this project, MCP should be studied as a protocol for agent environments, not just as a developer convenience.
-- Track the distinction between MCP clients, MCP servers, tools, resources, prompts and transports.
+- В этом проекте MCP стоит изучать как protocol для agent environments, а не просто как developer convenience.
+- Отслеживать различия между MCP clients, MCP servers, tools, resources, prompts и transports.
 
-## Reliability and limitations
+## Надежность и ограничения
 
-- Official docs/specification are the primary source for protocol concepts.
-- The ecosystem is changing quickly; source cards should include access dates and be revisited.
+- Официальная документация и specification — основной источник по protocol concepts.
+- Экосистема быстро меняется; карточки источников должны включать дату доступа и пересматриваться.
 
-## Follow-up questions
+## Вопросы для продолжения
 
-- How does MCP compare to ordinary function calling?
-- What security model is required when agents can call MCP servers?
+- Как MCP соотносится с обычным function calling?
+- Какая security model нужна, когда agents могут вызывать MCP servers?

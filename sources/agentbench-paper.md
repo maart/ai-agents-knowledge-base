@@ -1,36 +1,36 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: AgentBench: Evaluating LLMs as Agents
+# Источник: AgentBench: Evaluating LLMs as Agents
 
-## Metadata
+## Метаданные
 
 - URL: https://arxiv.org/abs/2308.03688
-- Accessed: 2026-05-16
-- Type: paper / benchmark
-- Author / organization: Tsinghua University and collaborators
-- Year: 2023 / ICLR 2024
+- Дата доступа: 2026-05-16
+- Тип: paper / benchmark
+- Автор / организация: Tsinghua University и соавторы
+- Год: 2023 / ICLR 2024
 
-## Main idea
+## Главная идея
 
-AgentBench evaluates LLMs as [agents](../notes/concepts/agent.md) across multiple interactive environments, including operating systems, databases, knowledge graphs, games, web shopping and web browsing.
+AgentBench оценивает LLMs как [agents](../notes/concepts/agent.md) в нескольких интерактивных средах (интерактивные среды (interactive environments)): operating systems, databases, knowledge graphs, games, web shopping и web browsing.
 
-## Relevance to AI agents
+## Значение для AI agents
 
-- Important because it evaluates models in environments, not only static prompts.
-- Highlights long-term reasoning, decision-making and instruction following as core agent difficulties.
-- Useful for comparing task domains and failure modes.
+- Важен, потому что оценивает модели в environments, а не только на статические prompts.
+- Подсвечивает long-term reasoning, decision-making и instruction following как ключевые сложности agents.
+- Полезен для сравнения доменов задач (task domains) и режимы отказа (failure modes).
 
-## Notes
+## Заметки
 
-- AgentBench helps frame agent evaluation as interaction quality over time.
-- It should be paired with domain-specific benchmarks like SWE-bench.
+- AgentBench помогает рассматривать agent оценка (evaluation) как качество взаимодействия во времени.
+- Его стоит читать вместе с domain-specific benchmarks вроде SWE-bench.
 
-## Reliability and limitations
+## Надежность и ограничения
 
-- Research benchmark published at ICLR 2024.
-- Simulated or benchmarked environments can still differ from production deployment.
+- Исследовательский benchmark, опубликованный на ICLR 2024.
+- Симулированные или benchmarked environments все равно могут отличаться от production-развертывания.
 
-## Follow-up questions
+## Вопросы для продолжения
 
-- Which environments best predict real product usefulness?
-- How should agent benchmarks include safety and cost?
+- Какие environments лучше всего предсказывают реальную полезность продукта?
+- Как agent benchmarks должны учитывать safety и cost?

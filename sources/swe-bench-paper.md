@@ -1,36 +1,36 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: SWE-bench: Can Language Models Resolve Real-World GitHub Issues?
+# Источник: SWE-bench: Can Language Models Resolve Real-World GitHub Issues?
 
-## Metadata
+## Метаданные
 
 - URL: https://arxiv.org/abs/2310.06770
-- Accessed: 2026-05-16
-- Type: paper / benchmark
-- Author / organization: Carlos E. Jimenez et al.
-- Year: 2023
+- Дата доступа: 2026-05-16
+- Тип: paper / benchmark
+- Автор / организация: Carlos E. Jimenez et al.
+- Год: 2023
 
-## Main idea
+## Главная идея
 
-SWE-bench evaluates language models on real GitHub issues where the model must modify a codebase so that tests pass. It makes software engineering a benchmark for multi-step, environment-grounded problem solving.
+SWE-bench оценивает языковые модели (language models) на реальных GitHub issues, где model должна изменить codebase так, чтобы tests прошли. Он превращает software engineering в benchmark для multi-step, environment-grounded problem solving.
 
-## Relevance to AI agents
+## Значение для AI agents
 
-- Important benchmark for coding [agents](../notes/concepts/agent.md) and real-world task completion.
-- Emphasizes that agent evaluation often needs executable environments, not just answer grading.
-- Highlights long-context reasoning, repository navigation and test feedback.
+- Важный benchmark для coding [agents](../notes/concepts/agent.md) и выполнения реальных задач (real-world task completion).
+- Подчеркивает, что agent оценка (evaluation) часто требует executable environments, а не только оценки ответов (answer grading).
+- Подсвечивает long-context reasoning, repository navigation и test feedback.
 
-## Notes
+## Заметки
 
-- SWE-bench is especially relevant for studying "task success" rather than conversational quality.
-- Later variants and critiques should be tracked separately.
+- SWE-bench особенно релевантен для изучения "task success", а не качества разговора (conversational quality).
+- Более поздние variants и critiques стоит отслеживать отдельно.
 
-## Reliability and limitations
+## Надежность и ограничения
 
-- Widely used research benchmark.
-- Passing tests is a useful signal but not a complete measure of maintainability or product correctness.
+- Широко используемый исследовательский benchmark.
+- Passing tests — полезный сигнал, но не полная мера maintainability или product correctness.
 
-## Follow-up questions
+## Вопросы для продолжения
 
-- What does SWE-bench miss about real software work?
-- How should benchmarks account for time, cost and human review?
+- Что SWE-bench упускает в real software work?
+- Как benchmarks должны учитывать time, cost и human review?

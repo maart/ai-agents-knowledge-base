@@ -1,36 +1,36 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: Microsoft AutoGen documentation
+# Источник: Microsoft AutoGen документация
 
-## Metadata
+## Метаданные
 
 - URL: https://microsoft.github.io/autogen/
-- Accessed: 2026-05-16
-- Type: docs
-- Author / organization: Microsoft
-- Year: 2023-2026
+- Дата доступа: 2026-05-16
+- Тип: docs
+- Автор / организация: Microsoft
+- Год: 2023-2026
 
-## Main idea
+## Главная идея
 
-AutoGen is a framework for building AI agents and [multi-agent](../notes/concepts/multi-agent.md) applications. It is especially relevant for studying [agent](../notes/concepts/agent.md) conversations, coordination, tools and distributed task solving.
+AutoGen — framework для создания AI agents и [multi-agent](../notes/concepts/multi-agent.md) applications. Он особенно полезен для изучения agent conversations, coordination, tools и распределенного решения задач (распределенного решения задач (distributed task solving)).
 
-## Relevance to AI agents
+## Значение для AI agents
 
-- Provides a concrete multi-agent implementation reference.
-- Useful for comparing role-based collaboration with graph/[workflow](../notes/concepts/workflow.md) orchestration.
-- Highlights agent communication as an architectural primitive.
+- Дает конкретный implementation reference для multi-agent систем.
+- Полезен для сравнения role-based collaboration с graph/[workflow](../notes/concepts/workflow.md) orchestration.
+- Подсвечивает agent communication как architectural primitive.
 
-## Notes
+## Заметки
 
-- Compare AutoGen with CrewAI for role-based multi-agent patterns.
-- Compare with LangGraph for state and control flow.
+- Сравнить AutoGen с CrewAI по role-based multi-agent patterns.
+- Сравнить с LangGraph по state и control flow.
 
-## Reliability and limitations
+## Надежность и ограничения
 
-- Official documentation is authoritative for framework behavior.
-- Framework docs focus on supported patterns and may not fully describe failure modes.
+- Официальная документация является авторитетным источником по поведению framework.
+- Документация framework фокусируется на поддерживаемых patterns и может не полностью описывать режимы отказа (failure modes).
 
-## Follow-up questions
+## Вопросы для продолжения
 
-- When does agent conversation improve results?
-- How should multi-agent systems be evaluated beyond final output quality?
+- Когда agent conversation улучшает результат?
+- Как оценивать multi-agent systems помимо качества финального результата?

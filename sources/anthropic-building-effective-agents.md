@@ -1,36 +1,36 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: Building effective agents
+# Источник: Building effective agents
 
-## Metadata
+## Метаданные
 
 - URL: https://www.anthropic.com/engineering/building-effective-agents
-- Accessed: 2026-05-16
-- Type: essay / engineering guide
-- Author / organization: Anthropic
-- Year: 2024
+- Дата доступа: 2026-05-16
+- Тип: essay / engineering guide
+- Автор / организация: Anthropic
+- Год: 2024
 
-## Main idea
+## Главная идея
 
-Anthropic distinguishes [workflows](../notes/concepts/workflow.md) from agents: workflows follow predefined code paths, while agents dynamically direct their own processes and [tool use](../notes/concepts/tool-use.md). The article argues for simple, composable patterns and careful use of autonomy rather than defaulting to complex [agent](../notes/concepts/agent.md) frameworks.
+Anthropic различает [workflows](../notes/concepts/workflow.md) и agents: workflows идут по заранее заданным путям выполнения (code paths), а agents динамически направляют собственный процесс и [tool use](../notes/concepts/tool-use.md). Статья предлагает начинать с простых составных паттернов (composable patterns) и осторожно добавлять autonomy, а не по умолчанию выбирать сложные [agent](../notes/concepts/agent.md) frameworks.
 
-## Relevance to AI agents
+## Значение для AI agents
 
-- Gives a clear conceptual distinction between workflow and agent.
-- Useful for architecture patterns: prompt chaining, routing, parallelization, orchestrator-workers, evaluator-optimizer and autonomous agents.
-- Offers a practical caution: increase agency only when the task benefits from it.
+- Дает ясное концептуальное различие между workflow и agent.
+- Полезен для архитектурных паттернов (architecture patterns): prompt chaining, routing, parallelization, orchestrator-workers, evaluator-optimizer и autonomous agents.
+- Дает практическое предупреждение: увеличивать agency только там, где задача действительно выигрывает от этого.
 
-## Notes
+## Заметки
 
-- This is a key conceptual source for the project's distinction between chatbot, workflow and agent.
-- It should be paired with implementation docs and empirical evaluations.
+- Это ключевой концептуальный источник для различения chatbot, workflow и agent в проекте.
+- Его стоит читать вместе с implementation docs и эмпирическими оценками (empirical evaluations).
 
-## Reliability and limitations
+## Надежность и ограничения
 
-- Strong engineering perspective from a frontier model provider.
-- It is not a benchmark or neutral survey; treat it as practical guidance.
+- Сильная инженерная перспектива от frontier model provider.
+- Это не benchmark и не нейтральный survey; лучше воспринимать как практическое руководство.
 
-## Follow-up questions
+## Вопросы для продолжения
 
-- Which tasks truly need agent autonomy?
-- How can "simple first" be translated into product design rules?
+- Какие задачи действительно требуют agent autonomy?
+- Как перевести принцип "simple first" в правила product design?

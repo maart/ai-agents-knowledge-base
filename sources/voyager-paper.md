@@ -1,37 +1,37 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: Voyager: An Open-Ended Embodied Agent with Large Language Models
+# Источник: Voyager: An Open-Ended Embodied Agent with Large Language Models
 
-## Metadata
+## Метаданные
 
 - URL: https://arxiv.org/abs/2305.16291
-- Project: https://voyager.minedojo.org/
-- Accessed: 2026-05-16
-- Type: paper
-- Author / organization: Guanzhi Wang et al.
-- Year: 2023
+- Проект: https://voyager.minedojo.org/
+- Дата доступа: 2026-05-16
+- Тип: paper
+- Автор / организация: Guanzhi Wang et al.
+- Год: 2023
 
-## Main idea
+## Главная идея
 
-Voyager is an LLM-powered Minecraft [agent](../notes/concepts/agent.md) that explores an environment, writes executable skills, stores them in a [skill library](../notes/concepts/skill-library.md) and reuses them for future tasks.
+Voyager — LLM-powered Minecraft [agent](../notes/concepts/agent.md), который исследует environment, пишет executable skills, сохраняет их в [skill library](../notes/concepts/skill-library.md) и переиспользует в будущих tasks.
 
-## Relevance to AI agents
+## Значение для AI agents
 
-- Strong example of agent [memory](../notes/concepts/memory.md) as reusable skills, not just stored text.
-- Shows environment feedback, execution errors and self-verification as part of agent learning.
-- Useful for understanding embodied and open-ended agents.
+- Сильный пример agent [memory](../notes/concepts/memory.md) как reusable skills, а не просто stored text.
+- Показывает обратную связь среды (environment feedback), ошибки выполнения (execution errors) и self-verification как часть agent learning.
+- Полезен для понимания embodied и open-ended agents: agents, которые действуют в среде и продолжают исследование без заранее фиксированного финального шага.
 
-## Notes
+## Заметки
 
-- The Minecraft environment makes feedback concrete and measurable.
-- Skill libraries are a useful lens for long-term agent capability growth.
+- Minecraft environment делает feedback конкретным и измеримым.
+- Skill libraries — полезная линза для long-term agent возможность (capability) growth.
 
-## Reliability and limitations
+## Надежность и ограничения
 
-- Research paper and open-source project.
-- Environment is simulated and structured; conclusions may not transfer directly to messy business [workflows](../notes/concepts/workflow.md).
+- Исследовательский paper и open-source project.
+- Environment симулированная и структурированная; выводы могут не переноситься напрямую на messy business [workflows](../notes/concepts/workflow.md).
 
-## Follow-up questions
+## Вопросы для продолжения
 
-- How can skill libraries translate to non-game domains?
-- What should count as agent learning if model weights do not change?
+- Как skill libraries могут переноситься в неигровые домены (non-game domains)?
+- Что считать agent learning, если веса модели (model weights) не меняются?

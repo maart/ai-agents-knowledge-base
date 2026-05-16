@@ -1,37 +1,37 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: OpenAI AgentKit
+# Источник: OpenAI AgentKit
 
-## Metadata
+## Метаданные
 
 - URL: https://openai.com/index/introducing-agentkit/
-- Related docs: https://platform.openai.com/docs/guides/agents
-- Accessed: 2026-05-16
-- Type: product / docs
-- Author / organization: OpenAI
-- Year: 2025
+- Связанная документация: https://platform.openai.com/docs/guides/agents
+- Дата доступа: 2026-05-16
+- Тип: product / docs
+- Автор / организация: OpenAI
+- Год: 2025
 
-## Main idea
+## Главная идея
 
-AgentKit packages several parts of agent product development into one platform layer: Agent Builder for creating [workflows](../notes/concepts/workflow.md), ChatKit for embedding agent chat experiences, Connector Registry for managing data and tool connections, and [Evals](../notes/concepts/evals.md) for measuring agent behavior.
+AgentKit объединяет несколько частей agent product development в один platform layer: Agent Builder для создания [workflows](../notes/concepts/workflow.md), ChatKit для встраивания agent chat experiences, Connector Registry для управления data/tool connections и [Evals](../notes/concepts/evals.md) для измерения agent behavior.
 
-## Relevance to AI agents
+## Значение для AI agents
 
-- Shows the move from agent SDKs toward end-to-end agent platforms.
-- Useful for distinguishing model capability from product infrastructure.
-- Important for the workflow/agent hybrid theme: Agent Builder explicitly frames agents as workflows that can be built, versioned, embedded and evaluated.
+- Показывает движение от agent SDKs к end-to-end agent platforms.
+- Полезен для различения model возможность (capability) и product infrastructure.
+- Важен для темы workflow/agent hybrid: Agent Builder явно описывает agents как workflows, которые можно строить, версионировать, встраивать и оценивать (build, version, embed и evaluate).
 
-## Notes
+## Заметки
 
-- AgentKit is especially useful for tracking how agent systems become productized: build, deploy, connect, evaluate.
-- Compare with n8n-style workflow builders: both use visual composition, but AgentKit is centered on AI-agent workflows and model/tool evaluation.
+- AgentKit особенно полезен для отслеживания того, как agent systems становятся productized: build, deploy, connect, evaluate.
+- Сравнить с n8n-style workflow builders: оба используют визуальную композицию (visual composition), но AgentKit центрирован на AI-agent workflows и model/tool оценка (evaluation).
 
-## Reliability and limitations
+## Надежность и ограничения
 
-- Official OpenAI product announcement and docs.
-- Product packaging may change; revisit docs periodically.
+- Официальный анонс продукта OpenAI и документация.
+- Продуктовая упаковка может меняться; документацию стоит периодически пересматривать.
 
-## Follow-up questions
+## Вопросы для продолжения
 
-- How much of agent development moves into visual builders?
-- How do AgentKit evals compare with standalone eval platforms and framework-specific tracing?
+- Какая часть agent development перейдет в визуальные builders?
+- Как AgentKit evals соотносятся с standalone eval platforms и framework-specific tracing?

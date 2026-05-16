@@ -1,33 +1,33 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: <title>
+# Источник: <title>
 
-## Metadata
+## Метаданные
 
 - URL:
-- Accessed: 2026-05-16
-- Type: paper | docs | essay | product | benchmark
-- Author / organization:
-- Year:
+- Дата доступа: 2026-05-16
+- Тип: paper | docs | essay | product | benchmark
+- Автор / организация:
+- Год:
 
-## Main idea
+## Главная идея
 
-One or two paragraphs describing the core claim.
+Один-два абзаца с главной идеей источника.
 
-## Relevance to AI agents
+## Значение для AI agents
 
-What this source adds to the project:
-
-- 
-
-## Notes
+Что этот источник добавляет к проекту:
 
 - 
 
-## Reliability and limitations
+## Заметки
 
 - 
 
-## Follow-up questions
+## Надежность и ограничения
+
+- 
+
+## Вопросы для продолжения
 
 - 

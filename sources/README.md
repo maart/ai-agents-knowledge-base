@@ -1,10 +1,10 @@
-[К study guide](../study-guide.md)
+[К учебному маршруту](../study-guide.md)
 
-# Sources
+# Источники
 
-Здесь хранятся карточки источников: papers, documentation, essays, product pages, benchmarks.
+Здесь хранятся карточки источников: научные статьи (papers), документация, эссе, продуктовые страницы (продуктовая страница (product page)s) и бенчмарки (benchmarks).
 
-После [Concepts](../notes/concepts/README.md) сначала прочитай [Landscape](../landscape/README.md). Этот раздел лучше читать уже после карты экосистемы: сначала обзорные инженерные тексты, затем tool/protocol layer, потом frameworks, memory/multi-agent research, coding agents и benchmarks.
+После [концепций](../notes/concepts/README.md) сначала прочитай [ландшафт](../landscape/README.md). Этот раздел лучше читать уже после карты экосистемы: сначала обзорные инженерные тексты, затем слой инструментов и протоколов (tools/protocols), потом фреймворки (frameworks), исследования про память и многоагентные системы (memory/multi-agent), coding agents и benchmarks.
 
 ## Формат карточки
 
@@ -19,39 +19,39 @@
 - что источник добавляет к пониманию AI [agents](../notes/concepts/agent.md);
 - надежность и ограничения.
 
-## Что читать после Landscape
+## Что читать после ландшафта
 
 1. [Anthropic: Building effective agents](anthropic-building-effective-agents.md)
 
-   Начать здесь: хороший инженерный текст про различие workflow и agents, а также про простые composable patterns.
+   Начать здесь: хороший инженерный текст про различие workflow и agents, а также про простые составные паттерны.
 
 2. [ReAct paper](react-paper.md)
 
-   Базовый исследовательский паттерн reason -> act -> observe. Помогает понять agent loop и роль observations.
+   Базовый исследовательский паттерн `reason -> act -> observe`. Помогает понять agent loop и роль observation/analysis of results.
 
-3. [OpenAI Responses API and tools](openai-responses-tools.md)
+3. [OpenAI Responses API и tools](openai-responses-tools.md)
 
-   Практический слой tool use: custom functions, built-in tools, computer use and remote MCP servers.
+   Практический слой использования инструментов (tool use): custom functions, встроенные tools, computer use и remote MCP servers.
 
 4. [Model Context Protocol architecture](mcp-architecture.md)
 
-   Инфраструктурный слой подключения tools, resources and prompts.
+   Инфраструктурный слой подключения tools, resources и prompts.
 
 5. [Agent2Agent Protocol](a2a-protocol.md)
 
-   Следующий уровень interoperability: agent-to-agent communication. Читать после MCP, чтобы не смешивать эти два протокола.
+   Следующий уровень совместимости (interoperability): коммуникация agent-to-agent. Читать после MCP, чтобы не смешивать эти два протокола.
 
 6. [OpenAI Agents SDK](openai-agents-sdk.md)
 
-   SDK-level agent primitives: agents, tools, guardrails, handoffs, sessions and tracing.
+   Агентские primitives на уровне SDK: agents, tools, guardrails, handoffs, sessions и tracing.
 
-7. [LangGraph documentation](langgraph-docs.md)
+7. [LangGraph документация](langgraph-docs.md)
 
-   Graph/workflow view на agentic systems. Особенно полезно после concept notes про workflow и planning.
+   Graph/workflow взгляд на agentic systems. Особенно полезно после заметок про workflow и planning в разделе концепций.
 
 8. [OpenAI AgentKit](openai-agentkit.md) и [OpenAI Agent Builder](openai-agent-builder.md)
 
-   Product/platform layer: visual builder, connectors, embedded chat and evals.
+   Продуктово-платформенный слой: визуальный конструктор (visual builder), connectors, embedded chat и evals.
 
 9. [Toolformer paper](toolformer-paper.md)
 
@@ -59,52 +59,52 @@
 
 10. [Generative Agents paper](generative-agents-paper.md) и [Voyager paper](voyager-paper.md)
 
-    Читать вместе как блок про memory, reflection, skill libraries and persistent behavior.
+    Читать вместе как блок про memory, reflection, библиотеки навыков (skill libraries) и persistent behavior.
 
-11. [Microsoft AutoGen documentation](autogen-docs.md) и [CrewAI agents documentation](crewai-agents-docs.md)
+11. [Microsoft AutoGen документация](autogen-docs.md) и [CrewAI agents документация](crewai-agents-docs.md)
 
-    Multi-agent frameworks: роли, коммуникация, delegation, crews.
+    Многоагентные фреймворки (multi-agent frameworks): роли, коммуникация, delegation и crews.
 
 12. [Claude Code](claude-code.md), [SWE-agent paper](swe-agent-paper.md) и [SWE-bench paper](swe-bench-paper.md)
 
-    Coding agents as production category: files, commands, tests, review and executable benchmarks.
+    Coding agents как продуктовая категория: files, commands, tests, review и executable benchmarks.
 
 13. [AgentBench paper](agentbench-paper.md)
 
-    Более широкий benchmark взгляд на LLMs as agents across interactive environments.
+    Более широкий benchmark-взгляд на LLMs as agents across interactive environments: как модели ведут себя как agents в интерактивных средах.
 
 ## Все источники по категориям
 
-### Engineering guides
+### Инженерные guides
 
 - [Anthropic: Building effective agents](anthropic-building-effective-agents.md)
 
-### OpenAI platform
+### Платформа OpenAI
 
-- [OpenAI Responses API and tools](openai-responses-tools.md)
+- [OpenAI Responses API и tools](openai-responses-tools.md)
 - [OpenAI Agents SDK](openai-agents-sdk.md)
 - [OpenAI AgentKit](openai-agentkit.md)
 - [OpenAI Agent Builder](openai-agent-builder.md)
 
-### Protocols
+### Протоколы
 
 - [Model Context Protocol architecture](mcp-architecture.md)
 - [Agent2Agent Protocol](a2a-protocol.md)
 
-### Frameworks
+### Фреймворки
 
-- [LangGraph documentation](langgraph-docs.md)
-- [Microsoft AutoGen documentation](autogen-docs.md)
-- [CrewAI agents documentation](crewai-agents-docs.md)
+- [LangGraph документация](langgraph-docs.md)
+- [Microsoft AutoGen документация](autogen-docs.md)
+- [CrewAI agents документация](crewai-agents-docs.md)
 
-### Research papers
+### Исследовательские papers
 
 - [ReAct paper](react-paper.md)
 - [Toolformer paper](toolformer-paper.md)
 - [Voyager paper](voyager-paper.md)
 - [Generative Agents paper](generative-agents-paper.md)
 
-### Coding agents and benchmarks
+### Coding agents и benchmarks
 
 - [Claude Code](claude-code.md)
 - [SWE-agent paper](swe-agent-paper.md)

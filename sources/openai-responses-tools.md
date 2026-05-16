@@ -1,37 +1,37 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: OpenAI Responses API and tools
+# Источник: OpenAI Responses API и tools
 
-## Metadata
+## Метаданные
 
 - URL: https://platform.openai.com/docs/guides/tools?api-mode=responses
-- Related: https://platform.openai.com/docs/api-reference/responses
-- Accessed: 2026-05-16
-- Type: docs
-- Author / organization: OpenAI
-- Year: 2025-2026
+- Связано: https://platform.openai.com/docs/api-reference/responses
+- Дата доступа: 2026-05-16
+- Тип: docs
+- Автор / организация: OpenAI
+- Год: 2025-2026
 
-## Main idea
+## Главная идея
 
-The Responses API makes [tool use](../notes/concepts/tool-use.md) part of the model interaction surface. It supports custom function calling and built-in tools such as web search, file search, code interpreter, computer use and remote [MCP](../notes/concepts/protocols-and-interoperability.md) servers.
+Responses API делает [tool use](../notes/concepts/tool-use.md) частью поверхности взаимодействия с моделью (model interaction surface). Он поддерживает custom function calling и встроенные tools: web search, file search, code interpreter, computer use и remote [MCP](../notes/concepts/protocols-and-interoperability.md) servers.
 
-## Relevance to AI agents
+## Значение для AI agents
 
-- Shows how tool use is becoming a standard API-level primitive.
-- Important for understanding the difference between "model answers" and "model acts through tools".
-- Connects [agentic systems](../notes/concepts/agent.md) to MCP, computer use and long-running [workflows](../notes/concepts/workflow.md).
+- Показывает, как tool use становится стандартным API-level primitive.
+- Важен для понимания различия между "модель отвечает" (model answers) и "модель действует через инструменты" (model acts through tools).
+- Связывает [agentic systems](../notes/concepts/agent.md) с MCP, computer use и long-running [workflows](../notes/concepts/workflow.md).
 
-## Notes
+## Заметки
 
-- Track how Responses relates to Agents SDK and AgentKit.
-- Useful source for current OpenAI terminology around tools and stateful interactions.
+- Отслеживать, как Responses соотносится с Agents SDK и AgentKit.
+- Полезный источник по текущей OpenAI terminology вокруг tools и stateful interactions.
 
-## Reliability and limitations
+## Надежность и ограничения
 
-- Official OpenAI documentation.
-- Product surface changes quickly; revisit periodically.
+- Официальная документация OpenAI.
+- Продуктовая поверхность быстро меняется; источник нужно периодически пересматривать.
 
-## Follow-up questions
+## Вопросы для продолжения
 
-- Which tools should be considered core agent primitives?
-- How should applications constrain tool choice?
+- Какие tools считать core agent primitives?
+- Как applications должны ограничивать tool choice?

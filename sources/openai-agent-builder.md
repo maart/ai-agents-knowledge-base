@@ -1,36 +1,36 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: OpenAI Agent Builder
+# Источник: OpenAI Agent Builder
 
-## Metadata
+## Метаданные
 
 - URL: https://platform.openai.com/docs/guides/agent-builder
-- Accessed: 2026-05-16
-- Type: docs
-- Author / organization: OpenAI
-- Year: 2025-2026
+- Дата доступа: 2026-05-16
+- Тип: docs
+- Автор / организация: OpenAI
+- Год: 2025-2026
 
-## Main idea
+## Главная идея
 
-[Agent](../notes/concepts/agent.md) Builder is a visual canvas for building agent workflows. It treats agent creation as a graph/[workflow](../notes/concepts/workflow.md) design problem: developers compose nodes, configure tools, test behavior, version workflows and deploy them through related OpenAI agent platform components.
+[Agent](../notes/concepts/agent.md) Builder — визуальный canvas для создания agent workflows. Он трактует создание agent как задачу проектирования graph/[workflow](../notes/concepts/workflow.md): разработчики собирают nodes, настраивают tools, тестируют behavior, версионируют workflows и выполняют deploy через связанные компоненты OpenAI agent platform.
 
-## Relevance to AI agents
+## Значение для AI agents
 
-- Strong example of agentic systems becoming workflow-native.
-- Useful for the project's distinction between workflow, agentic workflow and fully agent-led loops.
-- Shows that visual workflow tools are not outside the agent ecosystem; they may become one of the main ways agent behavior is assembled and governed.
+- Сильный пример того, как agentic systems становятся workflow-native.
+- Полезен для различения workflow, agentic workflow и fully agent-led loops в проекте.
+- Показывает, что visual workflow tools не находятся вне agent ecosystem; они могут стать одним из основных способов собирать и управлять agent behavior.
 
-## Notes
+## Заметки
 
-- This source is important for the n8n/workflow discussion: branching and visual orchestration can remain workflow, while model-selected steps inside bounded regions can become agentic workflow.
-- Compare with LangGraph for code-first graph orchestration.
+- Этот источник важен для обсуждения n8n/workflow: branching и visual orchestration могут оставаться workflow, а model-selected steps внутри bounded regions могут становиться agentic workflow.
+- Сравнить с LangGraph как code-first graph orchestration.
 
-## Reliability and limitations
+## Надежность и ограничения
 
-- Official OpenAI documentation.
-- Docs describe intended product behavior, not independent reliability findings.
+- Официальная документация OpenAI.
+- Документация описывает задуманное поведение продукта (intended product behavior), а не независимые findings по надежность (reliability).
 
-## Follow-up questions
+## Вопросы для продолжения
 
-- Which agent workflows are better expressed visually, and which need code?
-- How should visual agent builders expose versioning, [evals](../notes/concepts/evals.md) and audit trails?
+- Какие agent workflows лучше выражать визуально, а какие требуют кода?
+- Как визуальные agent builders должны показывать версионирование (versioning), [evals](../notes/concepts/evals.md) и audit trails?

@@ -1,37 +1,37 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: OpenAI Agents SDK
+# Источник: OpenAI Agents SDK
 
-## Metadata
+## Метаданные
 
 - URL: https://platform.openai.com/docs/guides/agents-sdk/
-- Related docs: https://openai.github.io/openai-agents-python/agents/ and https://openai.github.io/openai-agents-js/guides/agents/
-- Accessed: 2026-05-16
-- Type: docs
-- Author / organization: OpenAI
-- Year: 2025-2026
+- Связанная документация: https://openai.github.io/openai-agents-python/agents/ и https://openai.github.io/openai-agents-js/guides/agents/
+- Дата доступа: 2026-05-16
+- Тип: docs
+- Автор / организация: OpenAI
+- Год: 2025-2026
 
-## Main idea
+## Главная идея
 
-OpenAI Agents SDK presents agents as an orchestration layer around models, tools, guardrails, handoffs, sessions and execution. The important shift is not only model quality, but the surrounding runtime that lets models take structured actions and coordinate multi-step work.
+OpenAI Agents SDK представляет agents как orchestration layer вокруг models, tools, guardrails, handoffs, sessions и execution. Важный сдвиг не только в качестве модели, но и в runtime вокруг нее, который позволяет models выполнять structured actions и координировать multi-step work.
 
-## Relevance to AI agents
+## Значение для AI agents
 
-- Useful as a reference for agent primitives: agent, runner, tools, guardrails, handoffs, sessions.
-- Shows how agentic systems move from prompt-only patterns to application infrastructure.
-- Important for tracking current product direction around long-running agents, sandboxed execution and computer/[tool use](../notes/concepts/tool-use.md).
+- Полезен как reference для agent primitives: agent, runner, tools, guardrails, handoffs, sessions.
+- Показывает, как agentic systems переходят от prompt-only patterns к инфраструктуре приложения (application infrastructure).
+- Важен для отслеживания текущего продуктового направления (current product direction) вокруг long-running agents, sandboxed execution и computer/[tool use](../notes/concepts/tool-use.md).
 
-## Notes
+## Заметки
 
-- Treat the SDK as an implementation reference, not as the definition of agents in general.
-- Compare its concepts with LangGraph, AutoGen and CrewAI to separate universal patterns from vendor-specific APIs.
+- Рассматривать SDK как implementation reference, а не как определение agents вообще.
+- Сравнить его concepts с LangGraph, AutoGen и CrewAI, чтобы отделить универсальные patterns от vendor-specific APIs.
 
-## Reliability and limitations
+## Надежность и ограничения
 
-- Official documentation is authoritative for OpenAI APIs and SDK behavior.
-- It is product documentation, so it emphasizes supported patterns and may not discuss limitations as deeply as independent evaluations.
+- Официальная документация является авторитетным источником по OpenAI APIs и поведению SDK.
+- Это продуктовая документация (product documentation), поэтому она подчеркивает поддерживаемые patterns и может не обсуждать ограничения (limitations) так глубоко, как independent evaluations.
 
-## Follow-up questions
+## Вопросы для продолжения
 
-- Which abstractions are common across SDKs?
-- How do guardrails and human approval differ between SDK-level and application-level design?
+- Какие abstractions общие для разных SDKs?
+- Чем guardrails и human approval отличаются между SDK-level и application-level design?

@@ -1,37 +1,37 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: Claude Code
+# Источник: Claude Code
 
-## Metadata
+## Метаданные
 
 - URL: https://www.anthropic.com/product/claude-code
-- Docs: https://docs.anthropic.com/en/docs/claude-code/overview
-- Accessed: 2026-05-16
-- Type: product / docs
-- Author / organization: Anthropic
-- Year: 2025-2026
+- Документация: https://docs.anthropic.com/en/docs/claude-code/overview
+- Дата доступа: 2026-05-16
+- Тип: product / docs
+- Автор / организация: Anthropic
+- Год: 2025-2026
 
-## Main idea
+## Главная идея
 
-Claude Code is Anthropic's agentic coding system. It is designed to read a codebase, make edits across files, run commands and tests, and deliver code changes for review.
+Claude Code — agentic coding system от Anthropic. Он предназначен для чтения codebase, внесения изменений в нескольких файлах (edits across files), запуска commands/tests и передачи code changes на review.
 
-## Relevance to AI agents
+## Значение для AI agents
 
-- Coding agents are one of the clearest production categories of [agentic systems](../notes/concepts/agent.md).
-- Claude Code highlights practical issues: permissions, workspace access, command execution, testing, review, configuration and long-running coding tasks.
-- Useful comparison point for OpenAI Codex and SWE-agent.
+- Coding agents — одна из самых понятных production categories для [agentic systems](../notes/concepts/agent.md).
+- Claude Code подсвечивает практические вопросы: permissions, workspace access, command execution, testing, review, configuration и long-running coding tasks.
+- Полезная точка сравнения для OpenAI Codex и SWE-agent.
 
-## Notes
+## Заметки
 
-- Coding agents make the agent loop visible: inspect files, edit, run tests, observe results, revise.
-- This source should be paired with independent papers/benchmarks such as SWE-bench and SWE-agent.
+- Coding agents делают agent loop видимым: inspect files, edit, run tests, observe results, revise.
+- Этот источник стоит читать вместе с независимыми papers/benchmarks, такими как SWE-bench и SWE-agent.
 
-## Reliability and limitations
+## Надежность и ограничения
 
-- Official product page and documentation.
-- Vendor docs show intended capability, not neutral evaluation.
+- Официальная продуктовая страница (product page) и документация.
+- Документация vendor показывает заявленную возможность (capability), а не нейтральную оценка (evaluation).
 
-## Follow-up questions
+## Вопросы для продолжения
 
-- What permissions should coding agents have by default?
-- How should review, tests and audit trails be built into coding-agent [workflows](../notes/concepts/workflow.md)?
+- Какие permissions должны быть у coding agents по умолчанию?
+- Как review, tests и audit trails должны быть встроены в coding-agent [workflows](../notes/concepts/workflow.md)?

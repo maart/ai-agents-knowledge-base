@@ -1,36 +1,36 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: Generative Agents: Interactive Simulacra of Human Behavior
+# Источник: Generative Agents: Interactive Simulacra of Human Behavior
 
-## Metadata
+## Метаданные
 
 - URL: https://arxiv.org/abs/2304.03442
-- Accessed: 2026-05-16
-- Type: paper
-- Author / organization: Joon Sung Park et al.
-- Year: 2023
+- Дата доступа: 2026-05-16
+- Тип: paper
+- Автор / организация: Joon Sung Park et al.
+- Год: 2023
 
-## Main idea
+## Главная идея
 
-Generative Agents studies simulated agents with [memory](../notes/concepts/memory.md), reflection and [planning](../notes/concepts/planning.md). The paper is less about tool execution and more about how believable [agent](../notes/concepts/agent.md) behavior can emerge from storing experiences, retrieving relevant memories and generating plans.
+Generative Agents изучает simulated agents с [memory](../notes/concepts/memory.md), reflection и [planning](../notes/concepts/planning.md). Paper меньше про tool execution и больше про то, как правдоподобное [agent](../notes/concepts/agent.md) behavior может возникать из хранения experiences, retrieval relevant memories и генерации plans.
 
-## Relevance to AI agents
+## Значение для AI agents
 
-- Important source for memory and reflection in agent systems.
-- Helps separate "agent as action executor" from "agent as persistent simulated actor".
-- Useful for discussing [long-term memory](../notes/concepts/long-term-memory.md), [retrieval](../notes/concepts/retrieval-rag.md) and behavioral consistency.
+- Важный источник про memory и reflection в agent systems.
+- Помогает разделить "agent как исполнитель действий" (agent as action executor) и "agent как устойчивый симулированный участник" (agent as persistent simulated actor).
+- Полезен для обсуждения [long-term memory](../notes/concepts/long-term-memory.md), [retrieval](../notes/concepts/retrieval-rag.md) и behavioral consistency.
 
-## Notes
+## Заметки
 
-- The environment is a simulation, not a production tool-use setting.
-- Still valuable because it gives a concrete architecture for memory streams, reflection and planning.
+- Environment является simulation, а не production tool-use setting.
+- Все равно ценен, потому что дает конкретную architecture для memory streams, reflection и planning.
 
-## Reliability and limitations
+## Надежность и ограничения
 
-- Peer-reviewed research paper, widely cited.
-- Simulated social behavior does not directly translate to enterprise agent reliability.
+- Рецензируемый и широко цитируемый research paper.
+- Simulated social behavior не переносится напрямую на enterprise agent надежность (reliability).
 
-## Follow-up questions
+## Вопросы для продолжения
 
-- Which memory patterns transfer from simulations to practical agent [workflows](../notes/concepts/workflow.md)?
-- How should agents decide what to remember, summarize or forget?
+- Какие memory patterns переносятся из simulations в практические agent [workflows](../notes/concepts/workflow.md)?
+- Как agents должны решать, что помнить, summarize или forget?

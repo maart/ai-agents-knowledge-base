@@ -1,37 +1,37 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering
+# Источник: SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering
 
-## Metadata
+## Метаданные
 
 - URL: https://arxiv.org/abs/2405.15793
-- Project: https://github.com/swe-agent/SWE-agent
-- Accessed: 2026-05-16
-- Type: paper / open-source project
-- Author / organization: SWE-agent team
-- Year: 2024
+- Проект: https://github.com/swe-agent/SWE-agent
+- Дата доступа: 2026-05-16
+- Тип: paper / open-source project
+- Автор / организация: SWE-agent team
+- Год: 2024
 
-## Main idea
+## Главная идея
 
-SWE-agent studies how language model [agents](../notes/concepts/agent.md) can solve software engineering tasks by interacting with a computer-like interface: inspecting files, editing code and running tests.
+SWE-agent изучает, как языковая модель (language model) [agents](../notes/concepts/agent.md) могут решать задачи software engineering, взаимодействуя с computer-like interface: inspecting files, editing code и running tests.
 
-## Relevance to AI agents
+## Значение для AI agents
 
-- Coding agents are one of the clearest practical categories of agentic systems.
-- Shows how the interface between model and environment affects performance.
-- Connects [tool use](../notes/concepts/tool-use.md), long context, execution feedback and evaluation.
+- Coding agents — одна из самых понятных practical categories для agentic systems.
+- Показывает, как interface между model и environment влияет на качество работы (performance).
+- Связывает [tool use](../notes/concepts/tool-use.md), long context, execution feedback и оценка (evaluation).
 
-## Notes
+## Заметки
 
-- Useful to compare with general browser/computer use agents.
-- Interface design is not neutral: it shapes what the agent can do well.
+- Полезно сравнить с general browser/computer use agents.
+- Interface design не нейтрален: он формирует, что agent может делать хорошо.
 
-## Reliability and limitations
+## Надежность и ограничения
 
-- Research paper and maintained open-source project.
-- Software engineering tasks are important but not representative of all agent domains.
+- Исследовательский paper и поддерживаемый open-source project.
+- Software engineering tasks важны, но не репрезентативны для всех agent domains.
 
-## Follow-up questions
+## Вопросы для продолжения
 
-- What makes an agent-computer interface effective?
-- How should coding agents expose uncertainty and ask for review?
+- Что делает agent-computer interface эффективным?
+- Как coding agents должны показывать uncertainty и просить review?

@@ -1,36 +1,36 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: Toolformer: Language Models Can Teach Themselves to Use Tools
+# Источник: Toolformer: Language Models Can Teach Themselves to Use Tools
 
-## Metadata
+## Метаданные
 
 - URL: https://arxiv.org/abs/2302.04761
-- Accessed: 2026-05-16
-- Type: paper
-- Author / organization: Timo Schick et al.
-- Year: 2023
+- Дата доступа: 2026-05-16
+- Тип: paper
+- Автор / организация: Timo Schick et al.
+- Год: 2023
 
-## Main idea
+## Главная идея
 
-Toolformer studies how language models can learn when and how to call external APIs, using self-supervised data construction from a small number of demonstrations.
+Toolformer изучает, как языковые модели (language models) могут научиться, когда и как вызывать external APIs, используя self-supervised data construction из небольшого числа demonstrations.
 
-## Relevance to AI agents
+## Значение для AI agents
 
-- Important early paper for tool-use as a learned model capability.
-- Separates the question of "can the model use tools?" from the broader question of "can the system act as an [agent](../notes/concepts/agent.md)?"
-- Useful for the history of function calling and API interaction.
+- Важный ранний paper про tool-use как learned model возможность (capability).
+- Отделяет вопрос "может ли модель использовать инструменты?" (can the model use tools?) от более широкого вопроса "может ли система действовать как [agent](../notes/concepts/agent.md)?" (can the system act as an agent?).
+- Полезен для истории function calling и API interaction.
 
-## Notes
+## Заметки
 
-- Toolformer is about learning [tool use](../notes/concepts/tool-use.md), not full agent orchestration.
-- Pair with ReAct to compare learned API calls with prompted reason-act loops.
+- Toolformer про learning [tool use](../notes/concepts/tool-use.md), а не про полноценную agent orchestration.
+- Читать вместе с ReAct, чтобы сравнить learned API calls с prompted reason-act loops.
 
-## Reliability and limitations
+## Надежность и ограничения
 
-- Research paper from 2023.
-- Results predate many current tool-capable frontier models and production APIs.
+- Исследовательский paper 2023 года.
+- Results предшествуют многим текущим tool-capable frontier models и production APIs.
 
-## Follow-up questions
+## Вопросы для продолжения
 
-- How much tool use should be learned by the model vs controlled by the application?
-- What remains relevant after modern function-calling APIs?
+- Какая часть tool use должна быть выучена моделью (learned by the model), а какая контролироваться приложением (controlled by the application)?
+- Что остается релевантным после современных function-calling APIs?

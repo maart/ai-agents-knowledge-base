@@ -1,36 +1,36 @@
-[К разделу Sources](README.md)
+[К разделу Источники](README.md)
 
-# Source: ReAct: Synergizing Reasoning and Acting in Language Models
+# Источник: ReAct: Synergizing Reasoning и Acting in Language Models
 
-## Metadata
+## Метаданные
 
 - URL: https://arxiv.org/abs/2210.03629
-- Accessed: 2026-05-16
-- Type: paper
-- Author / organization: Shunyu Yao et al.
-- Year: 2022 / ICLR 2023
+- Дата доступа: 2026-05-16
+- Тип: paper
+- Автор / организация: Shunyu Yao et al.
+- Год: 2022 / ICLR 2023
 
-## Main idea
+## Главная идея
 
-ReAct combines reasoning traces with actions. The model alternates between thinking about the task and taking actions that interact with an external environment, such as search or task-specific tools.
+ReAct объединяет reasoning traces с actions. Модель чередует размышление о задаче (thinking about the task) и действия (actions), которые взаимодействуют с внешней средой (external environment), например search или task-specific tools.
 
-## Relevance to AI agents
+## Значение для AI agents
 
-- Foundational pattern for [agent](../notes/concepts/agent.md) loops: reason, act, observe.
-- Helps explain why [tool use](../notes/concepts/tool-use.md) changes the model's role from answer generator to interactive problem solver.
-- Useful historical bridge between prompting research and modern agent frameworks.
+- Базовый pattern для [agent](../notes/concepts/agent.md) loops: reason, act, observe.
+- Помогает объяснить, почему [tool use](../notes/concepts/tool-use.md) меняет роль модели: от генератора ответов (answer generator) к интерактивному решателю задач (interactive problem solver).
+- Полезный исторический мост между prompting research и современными agent frameworks.
 
-## Notes
+## Заметки
 
-- ReAct is not the whole story of agents, but it gives a clean primitive for understanding action loops.
-- Compare with later work on [planning](../notes/concepts/planning.md), reflection, tool use and long-running execution.
+- ReAct — не вся история agents, но он дает чистый primitive для понимания action loops.
+- Сравнить с более поздними работами про [planning](../notes/concepts/planning.md), reflection, tool use и long-running execution.
 
-## Reliability and limitations
+## Надежность и ограничения
 
-- Peer-reviewed research paper and widely cited.
-- Experiments are earlier-generation compared with current models and production agent systems.
+- Рецензируемый и широко цитируемый research paper.
+- Experiments относятся к более раннему поколению по сравнению с текущими models и production agent systems.
 
-## Follow-up questions
+## Вопросы для продолжения
 
-- Which parts of ReAct remain useful with stronger models?
-- When does explicit reasoning/action formatting improve or harm performance?
+- Какие части ReAct остаются полезными с более сильными models?
+- Когда explicit reasoning/action formatting улучшает или ухудшает качество работы (performance)?
