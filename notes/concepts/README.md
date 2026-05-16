@@ -10,27 +10,31 @@
 
    Начальная точка: чем agent отличается от chatbot и workflow, и почему практические системы часто гибридные.
 
-2. [Tool use](tool-use.md)
+2. [Workflow](workflow.md)
+
+   Почему workflow — не слабая версия агента, а надежный способ строить управляемые AI-системы.
+
+3. [Tool use](tool-use.md)
 
    Как модель выходит за пределы текста: function calling, API, browser/computer use, MCP и внешние системы.
 
-3. [Planning](planning.md)
+4. [Planning](planning.md)
 
    Как агент разбивает цель на шаги, пересматривает план и понимает, когда нужно остановиться.
 
-4. [Memory](memory.md)
+5. [Memory](memory.md)
 
    Разные смыслы памяти: context window, session state, RAG, long-term memory, skill library и audit trail.
 
-5. [Multi-agent systems](multi-agent.md)
+6. [Multi-agent systems](multi-agent.md)
 
    Когда несколько агентов или ролей помогают, а когда создают лишнюю сложность.
 
-6. [Evals](evals.md)
+7. [Evals](evals.md)
 
    Как оценивать не только финальный ответ, но и траекторию действий, устойчивость, стоимость и human review burden.
 
-7. [Risks](risks.md)
+8. [Risks](risks.md)
 
    Основные риски агентских систем: tool misuse, over-autonomy, context errors, prompt injection и слабая наблюдаемость.
 
