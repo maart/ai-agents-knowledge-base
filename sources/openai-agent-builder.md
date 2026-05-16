@@ -12,7 +12,7 @@
 
 ## Главная идея
 
-[Agent](../notes/concepts/agent.md) Builder — [visual builder](../01-glossary.md#visual-builders-and-agent-platforms) для создания agent workflows. Он трактует создание agent как задачу проектирования graph/[workflow](../notes/concepts/workflow.md): разработчики собирают nodes, настраивают tools, тестируют behavior, версионируют workflows и выполняют deploy через связанные компоненты OpenAI agent platform.
+[Agent](../notes/concepts/agent.md) Builder — [visual builder](../01-glossary.md#visual-builders) для создания agent workflows. Он трактует создание agent как задачу проектирования graph/[workflow](../notes/concepts/workflow.md): разработчики собирают nodes, настраивают tools, тестируют behavior, версионируют workflows и выполняют deploy через связанные компоненты OpenAI agent platform.
 
 ## Значение для AI agents
 

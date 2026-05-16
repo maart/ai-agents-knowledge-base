@@ -56,7 +56,7 @@ overview -> concepts -> landscape -> sources -> synthesis/drafts
 1. [Фреймворки, стандарты и продуктовый ландшафт](landscape/frameworks-and-standards.md)
 2. [Landscape comparison](landscape/comparison.md)
 
-Landscape нужно читать до sources, потому что он дает полки: [Model/API layer](01-glossary.md#modelapi-layer), [SDK and orchestration](01-glossary.md#sdk-and-orchestration), protocols, runtime, evals, coding agents, product categories и [agent platforms](01-glossary.md#visual-builders-and-agent-platforms).
+Landscape нужно читать до sources, потому что он дает полки: [Model](01-glossary.md#model) / [API layer](01-glossary.md#api-layer), [SDK](01-glossary.md#sdk) и [orchestration](01-glossary.md#orchestration), protocols, runtime, evals, coding agents, product categories и [agent platforms](01-glossary.md#agent-platforms).
 
 ## 4. Sources: доказательная база
 
@@ -76,7 +76,7 @@ Landscape нужно читать до sources, потому что он дае�
 
 Потом выбирать ветку:
 
-- [platform/product](01-glossary.md#visual-builders-and-agent-platforms): [AgentKit](sources/openai-agentkit.md), [Agent Builder](sources/openai-agent-builder.md)
+- [platform/product](01-glossary.md#agent-platforms): [AgentKit](sources/openai-agentkit.md), [Agent Builder](sources/openai-agent-builder.md)
 - memory/research: [Generative Agents](sources/generative-agents-paper.md), [Voyager](sources/voyager-paper.md)
 - multi-agent: [AutoGen](sources/autogen-docs.md), [CrewAI](sources/crewai-agents-docs.md)
 - coding agents and evals: [Claude Code](sources/claude-code.md), [SWE-agent](sources/swe-agent-paper.md), [SWE-bench](sources/swe-bench-paper.md), [AgentBench](sources/agentbench-paper.md)

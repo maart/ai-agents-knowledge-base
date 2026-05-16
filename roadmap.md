@@ -98,7 +98,7 @@
 - evaluation and [risks](notes/concepts/risks.md);
 - product landscape.
 
-## Iteration 8: [agent platforms](01-glossary.md#visual-builders-and-agent-platforms) and product patterns
+## Iteration 8: [agent platforms](01-glossary.md#agent-platforms) and product patterns
 
 Цель: понять, как агентские системы превращаются в продукты и платформы.
 

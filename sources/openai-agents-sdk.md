@@ -13,7 +13,7 @@
 
 ## Главная идея
 
-OpenAI Agents SDK представляет agents как [orchestration layer](../01-glossary.md#sdk-and-orchestration) вокруг models, tools, guardrails, handoffs, sessions и execution. Важный сдвиг не только в качестве модели, но и в runtime вокруг нее, который позволяет models выполнять structured actions и координировать multi-step work.
+OpenAI Agents SDK представляет agents как [orchestration layer](../01-glossary.md#orchestration) вокруг models, tools, guardrails, handoffs, sessions и execution. Важный сдвиг не только в качестве модели, но и в runtime вокруг нее, который позволяет models выполнять structured actions и координировать multi-step work.
 
 ## Значение для AI agents
 
@@ -23,7 +23,7 @@ OpenAI Agents SDK представляет agents как [orchestration layer](.
 
 ## Заметки
 
-- Рассматривать [SDK](../01-glossary.md#sdk-and-orchestration) как implementation reference, а не как определение agents вообще.
+- Рассматривать [SDK](../01-glossary.md#sdk) как implementation reference, а не как определение agents вообще.
 - Сравнить его concepts с LangGraph, AutoGen и CrewAI, чтобы отделить универсальные patterns от vendor-specific APIs.
 
 ## Надежность и ограничения

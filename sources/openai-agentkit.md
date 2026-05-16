@@ -13,11 +13,11 @@
 
 ## Главная идея
 
-AgentKit объединяет несколько частей agent product development в один [platform layer](../01-glossary.md#visual-builders-and-agent-platforms): Agent Builder для создания [workflows](../notes/concepts/workflow.md), ChatKit для встраивания agent chat experiences, Connector Registry для управления data/tool connections и [Evals](../notes/concepts/evals.md) для измерения agent behavior.
+AgentKit объединяет несколько частей agent product development в один [platform layer](../01-glossary.md#agent-platforms): Agent Builder для создания [workflows](../notes/concepts/workflow.md), ChatKit для встраивания agent chat experiences, Connector Registry для управления data/tool connections и [Evals](../notes/concepts/evals.md) для измерения agent behavior.
 
 ## Значение для AI agents
 
-- Показывает движение от agent SDKs к end-to-end [agent platforms](../01-glossary.md#visual-builders-and-agent-platforms).
+- Показывает движение от agent SDKs к end-to-end [agent platforms](../01-glossary.md#agent-platforms).
 - Полезен для различения model capability и product infrastructure.
 - Важен для темы workflow/agent hybrid: Agent Builder явно описывает agents как workflows, которые можно строить, версионировать, встраивать и оценивать (build, version, embed и evaluate).
 

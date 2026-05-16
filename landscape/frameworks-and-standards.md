@@ -4,7 +4,7 @@
 
 Эта страница объясняет экосистему вокруг AI agents как набор слоев. Ее задача — не перечислить все инструменты, а дать понятную карту: где находится каждый тип технологии и какую проблему он решает.
 
-## 1. [Model/API layer](../01-glossary.md#modelapi-layer)
+## 1. [Model](../01-glossary.md#model) / [API layer](../01-glossary.md#api-layer)
 
 Базовый слой — это модели и API, через которые приложения получают reasoning, generation, tool calling and multimodal capabilities.
 
@@ -15,9 +15,9 @@
 - Claude APIs;
 - другие frontier model APIs.
 
-Почему важно: без [model/API layer](../01-glossary.md#modelapi-layer) агенту нечем принимать решения. Но сама модель не равна агентской системе. Агент появляется, когда модель встраивается в цикл действий, state, tools, permissions and evals.
+Почему важно: без [model](../01-glossary.md#model) и [API layer](../01-glossary.md#api-layer) агенту нечем принимать решения. Но сама модель не равна агентской системе. Агент появляется, когда модель встраивается в цикл действий, state, tools, permissions and evals.
 
-## 2. [SDK and orchestration](../01-glossary.md#sdk-and-orchestration)
+## 2. [SDK](../01-glossary.md#sdk) и [orchestration](../01-glossary.md#orchestration)
 
 Этот слой помогает собрать [agentic system](../notes/concepts/agent.md) в коде: определить agents, tools, handoffs, guardrails, sessions, graph state and execution flow.
 
@@ -36,9 +36,9 @@
 
 Главная мысль: [orchestration](../01-glossary.md#orchestration) отвечает не за "ум" модели, а за управляемость процесса.
 
-## 3. [Visual builders and agent platforms](../01-glossary.md#visual-builders-and-agent-platforms)
+## 3. [Visual builders](../01-glossary.md#visual-builders) и [agent platforms](../01-glossary.md#agent-platforms)
 
-Появляется отдельный слой [agent platforms](../01-glossary.md#visual-builders-and-agent-platforms): инструменты, которые помогают не только писать код, но и строить, тестировать, версионировать, подключать и встраивать агентские workflows.
+Появляется отдельный слой [agent platforms](../01-glossary.md#agent-platforms): инструменты, которые помогают не только писать код, но и строить, тестировать, версионировать, подключать и встраивать агентские workflows.
 
 Примеры:
 
@@ -137,7 +137,7 @@
 
 Для каждого элемента landscape полезно задавать одинаковые вопросы:
 
-- Какой это слой: [SDK](../01-glossary.md#sdk-and-orchestration), [platform](../01-glossary.md#visual-builders-and-agent-platforms), protocol, runtime, evals or product?
+- Какой это слой: [SDK](../01-glossary.md#sdk), [platform](../01-glossary.md#agent-platforms), protocol, runtime, evals or product?
 - Какие agent primitives есть: tools, [memory](../notes/concepts/memory.md), handoffs, guardrails?
 - Кто управляет flow: workflow, model, graph or human?
 - Как хранится state?

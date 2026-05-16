@@ -28,17 +28,29 @@
 
 Способность модели вызывать внешние функции, API, браузер, поиск, кодовую среду, базы данных или другие системы.
 
-## Model/API layer
+## Model
 
-Базовый слой агентской системы: модель и API, через которые приложение получает reasoning, generation, tool calling, multimodal capabilities и доступ к контексту. Этот слой дает агенту "умение думать и отвечать", но сам по себе еще не делает систему агентом: агентность появляется, когда модель встроена в цикл действий, состояния, инструментов, контроля и оценки.
+Модель — статистическая/нейросетевая система, которая принимает входной контекст и генерирует выход: текст, структурированный ответ, reasoning trace, tool call или мультимодальный результат. В агентской системе model обычно является центром принятия решений, но сама по себе не равна agent: ей нужны tools, state, execution environment, guardrails и orchestration.
 
-## SDK and orchestration
+## API layer
 
-Слой разработки и управления, где агентская система собирается в коде: agents, tools, guardrails, handoffs, sessions, state, tracing, retries и execution flow. SDK дает готовые primitives, а orchestration определяет, как шаги соединяются, кто выбирает следующий шаг, где хранится state и как система восстанавливается после ошибок.
+API layer — слой интерфейсов, через которые приложение обращается к model capabilities: generation, structured outputs, tool calling, file/search/code/computer use, multimodal input/output и stateful interactions. Он дает приложению доступ к возможностям модели, но не определяет сам workflow, ответственность, память, права доступа или правила остановки.
 
-## Visual builders and agent platforms
+## SDK
 
-Продуктово-платформенный слой для сборки агентских workflows без полного ручного кодирования: visual builders, connectors, embedded chat, versioning, deployment и evals. Такие platforms не заменяют model/API layer или SDK, а собирают их в управляемую product experience для проектирования, тестирования и эксплуатации agents.
+SDK — набор библиотек, primitives и developer APIs для сборки agentic systems в коде. Обычно SDK помогает определить agents, tools, guardrails, handoffs, sessions, tracing и execution. SDK ближе к инженерному строительному набору, чем к готовому продукту: он дает детали управления, но требует проектировать архитектуру приложения.
+
+## Orchestration
+
+Orchestration — слой управления агентской системой: маршрутизация, вызовы инструментов, handoffs, состояние, ограничения, повторные попытки, остановка и наблюдаемость. Orchestration отвечает не за "ум" модели, а за управляемость процесса: кто выбирает следующий шаг, где хранится state, как обрабатываются ошибки и когда нужен human approval.
+
+## Visual builders
+
+Visual builders — интерфейсы для сборки workflows, agentic workflows или agent flows через canvas, nodes, branches, connectors и настройки без полного ручного кодирования. Они особенно полезны, когда важны наглядность, быстрый прототип, совместная настройка процесса и контроль branching logic.
+
+## Agent platforms
+
+Agent platforms — более широкий продуктовый слой для проектирования, тестирования, подключения, версионирования, деплоя и эксплуатации agents. Обычно включает visual builders, SDK/runtime, connectors, embedded chat, evals, tracing, permissions и deployment. Platform не заменяет model, API layer или SDK, а собирает их в управляемый product experience.
 
 ## Function calling
 
@@ -59,10 +71,6 @@ Retrieval-Augmented Generation: подход, при котором систем
 ## Observation
 
 Observation, или наблюдение результата, — это получение и анализ обратной связи после действия агента. В агентском цикле `observe -> decide/think -> act -> observe` этот термин связывает систему с внешней средой: результатом tool call, изменением страницы, выводом программы, ответом API или другим сигналом о том, что произошло после действия.
-
-## Orchestration
-
-Слой управления агентской системой: маршрутизация, вызовы инструментов, handoffs, состояние, ограничения, повторные попытки, остановка и наблюдаемость.
 
 ## Handoff
 
