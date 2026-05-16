@@ -8,52 +8,43 @@
 
 1. [Agent](agent.md)
 
-   Что делает систему агентской: цель, действия, инструменты, observations (наблюдения результатов), состояние и правила остановки.
+Что делает систему агентской: цель, действия, инструменты, observations (наблюдения результатов), состояние и правила остановки.
 
-2. [Workflow](workflow.md)
+1. [Workflow](workflow.md)
 
-   Почему [workflow](workflow.md) — не слабая версия агента, а надежный способ строить управляемые AI-системы.
+Почему [workflow](workflow.md) — не слабая версия агента, а надежный способ строить управляемые AI-системы.
 
-3. [Agent vs workflow](agent-vs-workflow.md)
+1. [Agent vs workflow](agent-vs-workflow.md)
 
-   Как выбирать между agent, workflow и гибридным дизайном.
+Как выбирать между agent, workflow и гибридным дизайном.
 
-4. [Tool use](tool-use.md)
+1. [Tool use](tool-use.md)
 
-   Как модель выходит за пределы текста: function calling, API, browser/computer use, [MCP](protocols-and-interoperability.md) и внешние системы.
+Как модель выходит за пределы текста: function calling, API, browser/computer use, [MCP](protocols-and-interoperability.md) и внешние системы.
 
-5. [Planning](planning.md)
+1. [Planning](planning.md)
 
-   Как агент разбивает цель на шаги, пересматривает план и понимает, когда нужно остановиться.
+Как агент разбивает цель на шаги, пересматривает план и понимает, когда нужно остановиться.
 
-6. [Memory](memory.md)
+1. [Memory](memory.md)
 
-   Разные смыслы памяти: [context window](context-window.md), [session state](session-state.md), [RAG](retrieval-rag.md), [long-term memory](long-term-memory.md), [skill library](skill-library.md) и [audit trail](audit-trail.md).
+Разные смыслы памяти: [context window](context-window.md), [session state](session-state.md), [RAG](retrieval-rag.md), [long-term memory](long-term-memory.md), [skill library](skill-library.md) и [audit trail](audit-trail.md).
 
-   Подтемы:
+1. [Multi-agent systems](multi-agent.md)
 
-   - [Context window](context-window.md)
-   - [Session state](session-state.md)
-   - [Retrieval / RAG](retrieval-rag.md)
-   - [Long-term memory](long-term-memory.md)
-   - [Skill library](skill-library.md)
-   - [Audit trail](audit-trail.md)
+Когда несколько агентов или ролей помогают, а когда создают лишнюю сложность.
 
-7. [Multi-agent systems](multi-agent.md)
+1. [Protocols and interoperability](protocols-and-interoperability.md)
 
-   Когда несколько агентов или ролей помогают, а когда создают лишнюю сложность.
+Чем различаются MCP и A2A, и почему агентской экосистеме нужны протоколы подключения и взаимодействия.
 
-8. [Protocols and interoperability](protocols-and-interoperability.md)
+1. [Evals](evals.md)
 
-   Чем различаются MCP и A2A, и почему агентской экосистеме нужны протоколы подключения и взаимодействия.
+Как оценивать не только финальный ответ, но и траекторию действий, устойчивость, стоимость и human review burden.
 
-9. [Evals](evals.md)
+1. [Risks](risks.md)
 
-   Как оценивать не только финальный ответ, но и траекторию действий, устойчивость, стоимость и human review burden.
-
-10. [Risks](risks.md)
-
-   Основные риски агентских систем: tool misuse, over-autonomy, context errors, prompt injection и слабая наблюдаемость.
+Основные риски агентских систем: tool misuse, over-autonomy, context errors, prompt injection и слабая наблюдаемость.
 
 ## Как использовать раздел
 
