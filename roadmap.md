@@ -48,11 +48,12 @@
 
 Темы:
 
-- context window;
-- conversation/session state;
-- RAG;
-- long-term memory;
-- skill libraries;
+- [context window](notes/concepts/context-window.md);
+- [session state](notes/concepts/session-state.md);
+- [retrieval/RAG](notes/concepts/retrieval-rag.md);
+- [long-term memory](notes/concepts/long-term-memory.md);
+- [skill libraries](notes/concepts/skill-library.md);
+- [audit trail](notes/concepts/audit-trail.md);
 - retrieval and forgetting.
 
 ## Iteration 5: multi-agent systems

@@ -30,6 +30,15 @@
 
    Разные смыслы памяти: context window, session state, RAG, long-term memory, skill library и audit trail.
 
+   Подтемы:
+
+   - [Context window](context-window.md)
+   - [Session state](session-state.md)
+   - [Retrieval / RAG](retrieval-rag.md)
+   - [Long-term memory](long-term-memory.md)
+   - [Skill library](skill-library.md)
+   - [Audit trail](audit-trail.md)
+
 7. [Multi-agent systems](multi-agent.md)
 
    Когда несколько агентов или ролей помогают, а когда создают лишнюю сложность.
