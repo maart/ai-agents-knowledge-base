@@ -9,7 +9,8 @@
 3. [Roadmap](roadmap.md) — порядок исследования по итерациям.
 4. [Текущий синтез](notes/current-synthesis.md) — короткое резюме того, что уже понятно на текущей итерации.
 5. [Ландшафт](landscape/frameworks-and-standards.md) и [comparison](landscape/comparison.md) — фреймворки, стандарты и продуктовые направления.
-6. [Источники](sources/README.md) — карточки papers, docs, essays, product pages и benchmarks.
+6. [Первый черновик](drafts/what-are-ai-agents.md) — связный текст о том, что такое AI agents.
+7. [Источники](sources/README.md) — карточки papers, docs, essays, product pages и benchmarks.
 
 ## Рабочий принцип
 
@@ -27,4 +28,4 @@
 
 Текущая версия: v0.1, стартовый каркас.
 
-Ближайшая задача: расширить карточки источников, уточнить концептуальные заметки и собрать первый связный черновик о том, что такое AI agents.
+Ближайшая задача: отредактировать первый черновик, добавить более точные citations и собрать короткую версию для статьи или README-summary.
