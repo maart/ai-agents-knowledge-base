@@ -1,10 +1,10 @@
-[К roadmap](../roadmap.md)
+[К study guide](../study-guide.md)
 
 # Sources
 
 Здесь хранятся карточки источников: papers, documentation, essays, product pages, benchmarks.
 
-После [Concepts](../notes/concepts/README.md) этот раздел лучше читать не подряд по алфавиту, а как исследовательский маршрут: сначала обзорные инженерные тексты, затем tool/protocol layer, потом frameworks, memory/multi-agent research, coding agents и benchmarks.
+После [Concepts](../notes/concepts/README.md) сначала прочитай [Landscape](../landscape/README.md). Этот раздел лучше читать уже после карты экосистемы: сначала обзорные инженерные тексты, затем tool/protocol layer, потом frameworks, memory/multi-agent research, coding agents и benchmarks.
 
 ## Формат карточки
 
@@ -19,7 +19,7 @@
 - что источник добавляет к пониманию AI [agents](../notes/concepts/agent.md);
 - надежность и ограничения.
 
-## Что читать после Concepts
+## Что читать после Landscape
 
 1. [Anthropic: Building effective agents](anthropic-building-effective-agents.md)
 
