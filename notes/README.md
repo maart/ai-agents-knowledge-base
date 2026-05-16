@@ -13,10 +13,4 @@
 
 ## Concepts
 
-- [Agent vs workflow](concepts/agent-vs-workflow.md)
-- [Tool use](concepts/tool-use.md)
-- [Memory](concepts/memory.md)
-- [Planning](concepts/planning.md)
-- [Multi-agent systems](concepts/multi-agent.md)
-- [Evals](concepts/evals.md)
-- [Risks](concepts/risks.md)
+См. [Concepts](concepts/README.md) — страницу-раздел с рекомендуемым порядком чтения.
