@@ -6,35 +6,39 @@
 
 ## Рекомендуемый порядок чтения
 
-1. [Agent vs workflow](agent-vs-workflow.md)
+1. [Agent](agent.md)
 
-   Начальная точка: чем agent отличается от chatbot и workflow, и почему практические системы часто гибридные.
+   Что делает систему агентской: цель, действия, инструменты, наблюдения, состояние и правила остановки.
 
 2. [Workflow](workflow.md)
 
    Почему workflow — не слабая версия агента, а надежный способ строить управляемые AI-системы.
 
-3. [Tool use](tool-use.md)
+3. [Agent vs workflow](agent-vs-workflow.md)
+
+   Как выбирать между agent, workflow и гибридным дизайном.
+
+4. [Tool use](tool-use.md)
 
    Как модель выходит за пределы текста: function calling, API, browser/computer use, MCP и внешние системы.
 
-4. [Planning](planning.md)
+5. [Planning](planning.md)
 
    Как агент разбивает цель на шаги, пересматривает план и понимает, когда нужно остановиться.
 
-5. [Memory](memory.md)
+6. [Memory](memory.md)
 
    Разные смыслы памяти: context window, session state, RAG, long-term memory, skill library и audit trail.
 
-6. [Multi-agent systems](multi-agent.md)
+7. [Multi-agent systems](multi-agent.md)
 
    Когда несколько агентов или ролей помогают, а когда создают лишнюю сложность.
 
-7. [Evals](evals.md)
+8. [Evals](evals.md)
 
    Как оценивать не только финальный ответ, но и траекторию действий, устойчивость, стоимость и human review burden.
 
-8. [Risks](risks.md)
+9. [Risks](risks.md)
 
    Основные риски агентских систем: tool misuse, over-autonomy, context errors, prompt injection и слабая наблюдаемость.
 
