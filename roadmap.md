@@ -13,7 +13,7 @@
 - уточнить [карту темы](00-map.md);
 - расширить [глоссарий](01-glossary.md);
 - развить заметки в [concepts](notes/concepts/README.md);
-- собрать 10-15 ключевых источников в [sources](sources/).
+- собрать и прочитать ключевые источники по маршруту в [sources](sources/README.md).
 
 ## Iteration 2: architecture patterns
 
