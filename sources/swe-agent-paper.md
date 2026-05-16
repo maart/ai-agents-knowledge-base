@@ -1,3 +1,5 @@
+[На главную](../README.md)
+
 # Source: SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering
 
 ## Metadata

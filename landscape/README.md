@@ -1,3 +1,5 @@
+[На главную](../README.md)
+
 # Landscape
 
 Здесь хранится обзор экосистемы вокруг AI agents: фреймворки, стандарты, продукты, runtime-подходы, evals и observability.

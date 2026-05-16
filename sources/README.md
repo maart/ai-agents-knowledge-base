@@ -1,3 +1,5 @@
+[На главную](../README.md)
+
 # Sources
 
 Здесь хранятся карточки источников: papers, documentation, essays, product pages, benchmarks.

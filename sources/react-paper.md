@@ -1,3 +1,5 @@
+[На главную](../README.md)
+
 # Source: ReAct: Synergizing Reasoning and Acting in Language Models
 
 ## Metadata

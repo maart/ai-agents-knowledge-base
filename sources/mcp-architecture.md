@@ -1,3 +1,5 @@
+[На главную](../README.md)
+
 # Source: Model Context Protocol architecture
 
 ## Metadata

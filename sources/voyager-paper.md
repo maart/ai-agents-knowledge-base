@@ -1,3 +1,5 @@
+[На главную](../README.md)
+
 # Source: Voyager: An Open-Ended Embodied Agent with Large Language Models
 
 ## Metadata
